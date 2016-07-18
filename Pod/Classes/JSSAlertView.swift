@@ -22,14 +22,16 @@ public class JSSAlertView: UIViewController {
 	var cancelButtonLabel:UILabel!
 	var titleLabel:UILabel!
 	var textView:UITextView!
+    var input: UITextField?
 	weak var rootViewController:UIViewController!
 	var iconImage:UIImage!
 	var iconImageView:UIImageView!
 	var closeAction:(()->Void)!
 	var cancelAction:(()->Void)!
+    var inputAction:((text: String)->Void)!
 	var isAlertOpen:Bool = false
 	var noButtons: Bool = false
-	
+    
 	enum FontType {
 		case Title, Text, Button
 	}
@@ -72,6 +74,10 @@ public class JSSAlertView: UIViewController {
 		public func addCancelAction(action: ()->Void) {
 			self.alertview.addCancelAction(action)
 		}
+        
+        public func addInput(action: (text: String)->Void) {
+            self.alertview.addInput(action)
+        }
 		
 		public func setTitleFont(fontStr: String) {
 			self.alertview.setFont(fontStr, type: .Title)
@@ -138,6 +144,9 @@ public class JSSAlertView: UIViewController {
 		if textView != nil {
 			textView.textColor = color
 		}
+        if self.input != nil {
+            self.input?.textColor = color
+        }
 		if self.noButtons == false {
 			buttonLabel.textColor = color
 			if cancelButtonLabel != nil {
@@ -197,7 +206,15 @@ public class JSSAlertView: UIViewController {
 			self.textView.frame = CGRect(x: self.padding, y: yPos, width: self.alertWidth - (self.padding*2), height: ceil(textRect.size.height)*2)
 			yPos += ceil(textRect.size.height) + padding/2
 		}
-		
+        
+        if self.input != nil {
+            let inputHeight = CGFloat(30)
+            self.input!.leftView = UIView(frame: CGRectMake(0,0,5,inputHeight))
+            self.input!.leftViewMode = .Always
+            self.input!.frame = CGRect(x: self.padding, y: yPos + padding, width: self.alertWidth - (self.padding*2), height: inputHeight)
+            yPos += inputHeight + padding
+        }
+        
 		// position the buttons
 		
 		if self.noButtons == false {
@@ -238,7 +255,13 @@ public class JSSAlertView: UIViewController {
 		self.containerView.frame = CGRect(x: (self.viewWidth!-self.alertWidth)/2, y: (self.viewHeight! - yPos)/2, width: self.alertWidth, height: yPos)
 	}
 	
-	
+    public func input(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, delay: Double?=nil) -> JSSAlertViewResponder {
+        
+        self.input = UITextField()
+        let alertview = self.show(viewController, title: title, text: text, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0x3498db, alpha: 1), delay: delay)
+        alertview.setTextTheme(.Light)
+        return alertview
+    }
 	
 	public func info(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, delay: Double?=nil) -> JSSAlertViewResponder {
 		let alertview = self.show(viewController, title: title, text: text, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0x3498db, alpha: 1), delay: delay)
@@ -318,6 +341,14 @@ public class JSSAlertView: UIViewController {
 			textView.text = text
 			self.containerView.addSubview(textView)
 		}
+        
+        if self.input != nil {
+            self.input!.font = UIFont(name: self.textFont, size: 16)
+            self.input!.backgroundColor = adjustBrightness(baseColor!, amount: 0.8)
+            self.input!.textColor = self.lightTextColor
+            self.input!.tintColor = self.lightTextColor
+            self.containerView.addSubview(self.input!)
+        }
 		
 		// Button
 		self.noButtons = true
@@ -395,6 +426,10 @@ public class JSSAlertView: UIViewController {
 	func addAction(action: ()->Void) {
 		self.closeAction = action
 	}
+    
+    func addInput(action: (text: String)->Void) {
+        self.inputAction = action
+    }
 	
 	func buttonTap() {
 		closeView(true, source: .Close);
@@ -423,6 +458,9 @@ public class JSSAlertView: UIViewController {
                                 }
                                 else if let action = self.cancelAction where source == .Cancel {
                                     action()
+                                }
+                                else if let action = self.inputAction where source == .Close {
+                                    action(text: self.input == nil ? "" : self.input!.text!)
                                 }
                             }
                         })

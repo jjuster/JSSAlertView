@@ -30,7 +30,7 @@ class ExampleTableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 12
+        return 13
     }
 
 	
@@ -62,7 +62,9 @@ class ExampleTableViewController: UITableViewController {
 			cell.textLabel?.text = "Kitchen sink"
 		case 11:
 			cell.textLabel?.text = "Delayed ⏲"
-		default:
+        case 12:
+            cell.textLabel?.text = "Input Callback"
+        default:
 			break
 		}
 		
@@ -111,8 +113,9 @@ class ExampleTableViewController: UITableViewController {
 			alertview.setTextTheme(.Light)
 		case 11:
 			JSSAlertView().show(self, title: "Delayed!", text: "This alert is using a custom font: Clear Sans to be specific", delay: 3)
-
-			
+        case 12:
+            let alertview = JSSAlertView().input(self, title: "Input Field", text: "Enter a value:", buttonText: "Submit", cancelButtonText: "Cancel")
+			alertview.addInput(inputCallback)
 		default:
 			print("Nada")
 		}
@@ -128,4 +131,7 @@ class ExampleTableViewController: UITableViewController {
 		print("Cancel callback called")
 	}
 	
+    func inputCallback(text: String) {
+        print("Input Value: \(text)")
+    }
 }
