@@ -114,7 +114,7 @@ class ExampleTableViewController: UITableViewController {
 		case 11:
 			JSSAlertView().show(self, title: "Delayed!", text: "This alert is using a custom font: Clear Sans to be specific", delay: 3)
         case 12:
-            let alertview = JSSAlertView().input(self, title: "Input Field", text: "Enter a value:", buttonText: "Submit", cancelButtonText: "Cancel")
+            let alertview = JSSAlertView().input(self, title: "Input Field", text: "Enter a value:", buttonText: "Submit")
 			alertview.addInput(inputCallback)
 		default:
 			print("Nada")
