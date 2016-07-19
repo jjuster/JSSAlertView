@@ -344,6 +344,7 @@ public class JSSAlertView: UIViewController {
         
         if self.input != nil {
             self.input!.autocorrectionType = .No
+            self.input!.autocapitalizationType = .None
             self.input!.font = UIFont(name: self.textFont, size: 16)
             self.input!.backgroundColor = adjustBrightness(baseColor!, amount: 0.8)
             self.input!.textColor = self.lightTextColor
