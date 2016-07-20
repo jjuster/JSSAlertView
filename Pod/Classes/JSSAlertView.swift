@@ -108,7 +108,7 @@ public class JSSAlertView: UIViewController {
             self.alertview.closeType = closeType
         }
         
-		@objc func close() {
+		@objc public func close() {
 			self.alertview.closeView(false)
 		}
 	}
