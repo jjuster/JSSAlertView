@@ -32,9 +32,13 @@ public class JSSAlertView: UIViewController {
 	var isAlertOpen:Bool = false
 	var noButtons: Bool = false
     var closeType: CloseType = .SlideDown
-
+    
+    public enum OpenType {
+        case SlideDown, FadeIn, None
+    }
+    
     public enum CloseType {
-        case SlideDown, Dissolve, Never, None
+        case SlideDown, FadeOut, Never, None
     }
     
 	enum FontType {
@@ -264,36 +268,36 @@ public class JSSAlertView: UIViewController {
 		self.containerView.frame = CGRect(x: (self.viewWidth!-self.alertWidth)/2, y: (self.viewHeight! - yPos)/2, width: self.alertWidth, height: yPos)
 	}
 	
-    public func input(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, color: UIColor?=nil, iconImage: UIImage?=nil) -> JSSAlertViewResponder {
+    public func input(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, color: UIColor?=nil, iconImage: UIImage?=nil, openType: OpenType? = .SlideDown) -> JSSAlertViewResponder {
         
         self.input = UITextField()
-        let alertview = self.show(viewController, title: title, text: text, buttonText: buttonText, cancelButtonText: cancelButtonText, color: color != nil ? color! : UIColorFromHex(0x3498db, alpha: 1), iconImage: iconImage, delay: nil)
+        let alertview = self.show(viewController, title: title, text: text, buttonText: buttonText, cancelButtonText: cancelButtonText, color: color != nil ? color! : UIColorFromHex(0x3498db, alpha: 1), iconImage: iconImage, openType: openType, delay: nil)
         alertview.setTextTheme(.Light)
         return alertview
     }
 	
-	public func info(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, delay: Double?=nil, noButtons: Bool?=false) -> JSSAlertViewResponder {
-        let alertview = self.show(viewController, title: title, text: text, noButtons: noButtons, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0x3498db, alpha: 1), delay: delay)
+	public func info(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, openType: OpenType? = .SlideDown, delay: Double?=nil, noButtons: Bool?=false) -> JSSAlertViewResponder {
+        let alertview = self.show(viewController, title: title, text: text, noButtons: noButtons, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0x3498db, alpha: 1), openType: openType, delay: delay)
 		alertview.setTextTheme(.Light)
 		return alertview
 	}
 	
-	public func success(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, delay: Double?=nil, noButtons: Bool?=false) -> JSSAlertViewResponder {
-		return self.show(viewController, title: title, text: text, noButtons: noButtons, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0x2ecc71, alpha: 1), delay: delay)
+	public func success(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, openType: OpenType? = .SlideDown, delay: Double?=nil, noButtons: Bool?=false) -> JSSAlertViewResponder {
+		return self.show(viewController, title: title, text: text, noButtons: noButtons, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0x2ecc71, alpha: 1), openType: openType, delay: delay)
 	}
 	
-	public func warning(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, delay: Double?=nil, noButtons: Bool?=false) -> JSSAlertViewResponder {
-		return self.show(viewController, title: title, text: text, noButtons: noButtons, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0xf1c40f, alpha: 1), delay: delay)
+	public func warning(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, openType: OpenType? = .SlideDown, delay: Double?=nil, noButtons: Bool?=false) -> JSSAlertViewResponder {
+		return self.show(viewController, title: title, text: text, noButtons: noButtons, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0xf1c40f, alpha: 1), openType: openType, delay: delay)
 	}
 	
-    public func danger(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, delay: Double?=nil, noButtons: Bool?=false) -> JSSAlertViewResponder {
+    public func danger(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, openType: OpenType? = .SlideDown, delay: Double?=nil, noButtons: Bool?=false) -> JSSAlertViewResponder {
         
-		let alertview = self.show(viewController, title: title, text: text, noButtons: noButtons, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0xe74c3c, alpha: 1), delay: delay)
+		let alertview = self.show(viewController, title: title, text: text, noButtons: noButtons, buttonText: buttonText, cancelButtonText: cancelButtonText, color: UIColorFromHex(0xe74c3c, alpha: 1), openType: openType, delay: delay)
 		alertview.setTextTheme(.Light)
 		return alertview
 	}
 	
-	public func show(viewController: UIViewController, title: String, text: String?=nil, noButtons: Bool?=false, buttonText: String?=nil, cancelButtonText: String?=nil, color: UIColor?=nil, iconImage: UIImage?=nil, delay: Double?=nil) -> JSSAlertViewResponder {
+    public func show(viewController: UIViewController, title: String, text: String?=nil, noButtons: Bool?=false, buttonText: String?=nil, cancelButtonText: String?=nil, color: UIColor?=nil, iconImage: UIImage?=nil, openType: OpenType? = .SlideDown, delay: Double?=nil) -> JSSAlertViewResponder {
 		self.rootViewController = viewController
 				
 		self.view.backgroundColor = UIColorFromHex(0x000000, alpha: 0.7)
@@ -411,35 +415,53 @@ public class JSSAlertView: UIViewController {
         self.definesPresentationContext = true
         self.modalPresentationStyle = .OverFullScreen
         viewController.presentViewController(self, animated: false, completion: {
-            // Animate it in
-            UIView.animateWithDuration(0.2, animations: {
-                self.view.alpha = 1
-            })
             
-            self.containerView.center.x = self.view.center.x
-            self.containerView.center.y = -500
-            
-            UIView.animateWithDuration(0.5, delay: 0.05, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.5, options: [], animations: {
+            if openType == .SlideDown {
+                UIView.animateWithDuration(0.2, animations: {
+                    self.view.alpha = 1
+                })
+
+                // Animate it in
+                self.containerView.center.x = self.view.center.x
+                self.containerView.center.y = -500
+                
+                UIView.animateWithDuration(0.5, delay: 0.05, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.5, options: [], animations: {
+                    self.containerView.center = self.view.center
+                    }, completion: { finished in
+                        self.openComplete(delay)
+                })
+            } else if openType == .FadeIn {
                 self.containerView.center = self.view.center
-                }, completion: { finished in
-                    self.isAlertOpen = true
-                    
-                    if (self.input != nil) {
-                        self.input!.becomeFirstResponder()
-                    }
-                    
-                    if let d = delay {
-                        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(d * Double(NSEC_PER_SEC)))
-                        dispatch_after(delayTime, dispatch_get_main_queue()) {
-                            self.closeView(true)
-                        }
-                    }
-            })
+                
+                UIView.animateWithDuration(0.5, animations: {
+                    self.view.alpha = 1
+                    }, completion: { finished in
+                        self.openComplete(delay)
+                })
+            } else {
+                self.containerView.center = self.view.center
+                self.openComplete(delay)
+            }
         })
         
 		return JSSAlertViewResponder(alertview: self)
 	}
 	
+    func openComplete(delay: Double?=nil) {
+        self.isAlertOpen = true
+        
+        if (self.input != nil) {
+            self.input!.becomeFirstResponder()
+        }
+        
+        if let d = delay {
+            let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(d * Double(NSEC_PER_SEC)))
+            dispatch_after(delayTime, dispatch_get_main_queue()) {
+                self.closeView(true)
+            }
+        }
+    }
+    
 	func addAction(action: ()->Void) {
 		self.closeAction = action
 	}
@@ -467,9 +489,9 @@ public class JSSAlertView: UIViewController {
                 }, completion: { finished in
                     self.completeClose(withCallback, source: source)
             })
-        } else if self.closeType == .Dissolve {
+        } else if self.closeType == .FadeOut {
             UIView.animateWithDuration(0.3, animations: {
-                    self.view.alpha = self.containerView.alpha * 0.9
+                    self.view.alpha = 0
                 }, completion: { finished in
                     self.completeClose(withCallback, source: source)
             })

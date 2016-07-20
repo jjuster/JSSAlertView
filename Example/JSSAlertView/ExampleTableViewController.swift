@@ -96,8 +96,8 @@ class ExampleTableViewController: UITableViewController {
 		case 6:
 			JSSAlertView().success(self, title: "Great success", text: "This is the built-in .success style")
 		case 7:
-			let alertview = JSSAlertView().warning(self, title: "Take warning", text: "This is the built-in .warning style")
-            alertview.setCloseType(.Dissolve)
+            let alertview = JSSAlertView().warning(self, title: "Take warning", text: "This is the built-in .warning style", openType: .FadeIn)
+            alertview.setCloseType(.FadeOut)
 		case 8:
             JSSAlertView().danger(self, title: "Oh, shit.", text: "This is the built-in .danger style", noButtons: true)
 		case 9:
