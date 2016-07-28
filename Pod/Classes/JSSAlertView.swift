@@ -104,11 +104,15 @@ public class JSSAlertView: UIViewController {
             let buttonColor = UIImage.withColor(baseColor)
             let buttonHighlightColor = UIImage.withColor(adjustBrightness(baseColor, amount: 0.9))
 
-            self.alertview.dismissButton.setBackgroundImage(buttonColor, forState: .Normal)
-            self.alertview.dismissButton.setBackgroundImage(buttonHighlightColor, forState: .Highlighted)
-            
-            self.alertview.cancelButton.setBackgroundImage(buttonColor, forState: .Normal)
-            self.alertview.cancelButton.setBackgroundImage(buttonHighlightColor, forState: .Highlighted)
+            if self.alertview.noButtons == false {
+                self.alertview.dismissButton.setBackgroundImage(buttonColor, forState: .Normal)
+                self.alertview.dismissButton.setBackgroundImage(buttonHighlightColor, forState: .Highlighted)
+
+                if self.alertview.cancelButtonLabel != nil {
+                    self.alertview.cancelButton.setBackgroundImage(buttonColor, forState: .Normal)
+                    self.alertview.cancelButton.setBackgroundImage(buttonHighlightColor, forState: .Highlighted)
+                }
+            }
         }
 		
 		public func setTextTheme(theme: TextColorTheme) {
