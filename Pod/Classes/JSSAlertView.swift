@@ -388,8 +388,8 @@ public class JSSAlertView: UIViewController {
             self.containerView.addSubview(self.input!)
         }
         
-        if self.view != nil {
-            self.containerView.addSubview(self.view!)
+        if self.suppView != nil {
+            self.containerView.addSubview(self.suppView!)
         }
 		
 		// Button
