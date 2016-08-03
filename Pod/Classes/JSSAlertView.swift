@@ -85,8 +85,8 @@ public class JSSAlertView: UIViewController {
 			self.alertview.addCancelAction(action)
 		}
         
-        public func addInput(action: (text: String)->Void) {
-            self.alertview.addInput(action)
+        public func addInput(action: (text: String)->Void, text: String?=nil) {
+            self.alertview.addInput(action, text)
         }
 		
 		public func setTitleFont(fontStr: String) {
@@ -492,8 +492,11 @@ public class JSSAlertView: UIViewController {
 		self.closeAction = action
 	}
     
-    func addInput(action: (text: String)->Void) {
+    func addInput(action: (text: String)->Void, text: String?=nil) {
         self.inputAction = action
+        if (text != nil && self.input != nil) {
+            self.input!.text = text!
+        }
     }
     
 	func buttonTap() {
