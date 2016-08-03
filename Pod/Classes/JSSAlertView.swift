@@ -23,6 +23,7 @@ public class JSSAlertView: UIViewController {
 	var titleLabel:UILabel!
 	var textView:UITextView!
     var input: UITextField?
+    var suppView: UIView?
 	weak var rootViewController:UIViewController!
 	var iconImage:UIImage!
 	var iconImageView:UIImageView!
@@ -243,6 +244,11 @@ public class JSSAlertView: UIViewController {
             yPos += inputHeight + padding
         }
         
+        if self.suppView != nil {
+            self.suppView!.frame = CGRect(x: self.padding, y: yPos + padding, width: self.alertWidth - (self.padding*2), height: self.suppView!.frame.height)
+            yPos += self.suppView!.frame.height + padding
+        }
+        
 		// position the buttons
 		
 		if self.noButtons == false {
@@ -283,9 +289,10 @@ public class JSSAlertView: UIViewController {
 		self.containerView.frame = CGRect(x: (self.viewWidth!-self.alertWidth)/2, y: (self.viewHeight! - yPos)/2, width: self.alertWidth, height: yPos)
 	}
 	
-    public func input(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, color: UIColor?=nil, iconImage: UIImage?=nil, openType: OpenType? = .SlideDown) -> JSSAlertViewResponder {
+    public func input(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, color: UIColor?=nil, iconImage: UIImage?=nil, openType: OpenType? = .SlideDown, view: UIView?=nil) -> JSSAlertViewResponder {
         
         self.input = UITextField()
+        self.suppView = view
         let alertview = self.show(viewController, title: title, text: text, buttonText: buttonText, cancelButtonText: cancelButtonText, color: color != nil ? color! : UIColorFromHex(0x3498db, alpha: 1), iconImage: iconImage, openType: openType, delay: nil)
         alertview.setTextTheme(.Light)
         return alertview
@@ -379,6 +386,10 @@ public class JSSAlertView: UIViewController {
             self.input!.textColor = self.lightTextColor
             self.input!.tintColor = self.lightTextColor
             self.containerView.addSubview(self.input!)
+        }
+        
+        if self.view != nil {
+            self.containerView.addSubview(self.view!)
         }
 		
 		// Button
@@ -484,7 +495,7 @@ public class JSSAlertView: UIViewController {
     func addInput(action: (text: String)->Void) {
         self.inputAction = action
     }
-	
+    
 	func buttonTap() {
 		closeView(true, source: .Close);
 	}
