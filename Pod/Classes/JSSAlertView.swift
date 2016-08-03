@@ -86,7 +86,7 @@ public class JSSAlertView: UIViewController {
 		}
         
         public func addInput(action: (text: String)->Void, text: String?=nil) {
-            self.alertview.addInput(action, text)
+            self.alertview.addInput(action, text: text)
         }
 		
 		public func setTitleFont(fontStr: String) {
