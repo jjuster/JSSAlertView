@@ -1,19 +1,20 @@
 PODS:
-  - FBSnapshotTestCase (2.1.0):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
-  - FBSnapshotTestCase/Core (2.1.0)
-  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
     - FBSnapshotTestCase/Core
-  - JSSAlertView (1.1.4)
+  - JSSAlertView (1.1.5):
+    - PhoneNumberKit
   - Nimble (3.2.0)
   - Nimble-Snapshots (3.0.1):
     - FBSnapshotTestCase (~> 2.0)
     - Nimble
     - Quick
+  - PhoneNumberKit (0.8.4)
   - Quick (0.9.1)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - JSSAlertView (from `../`)
   - Nimble (~> 3.0)
   - Nimble-Snapshots
@@ -21,13 +22,16 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   JSSAlertView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
-  JSSAlertView: f42fc4be811925cef72ea808746df5a6c27eb356
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  JSSAlertView: 8c5cb318c5e7e59c9c8373f200f1d074613550c6
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
   Nimble-Snapshots: 0d64486715a613293ac5c9af6140b97eb9b0ae76
+  PhoneNumberKit: ec93d8c5e4614ecfc1ef333eb89f7eaadedcaa17
   Quick: a5221fc21788b6aeda934805e68b061839bc3165
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 1ebb40ac8dacf48f094a576ec14c81ee2bbd8bc5
+
+COCOAPODS: 1.0.0

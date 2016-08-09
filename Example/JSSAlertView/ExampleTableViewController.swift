@@ -30,7 +30,7 @@ class ExampleTableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 13
+        return 14
     }
 
 	
@@ -64,6 +64,8 @@ class ExampleTableViewController: UITableViewController {
 			cell.textLabel?.text = "Delayed ⏲"
         case 12:
             cell.textLabel?.text = "Input Callback"
+        case 13:
+            cell.textLabel?.text = "Input Phone"
         default:
 			break
 		}
@@ -117,7 +119,10 @@ class ExampleTableViewController: UITableViewController {
         case 12:
             let alertview = JSSAlertView().input(self, title: "Input Field", text: "Enter a value:", buttonText: "Submit")
 			alertview.addInput(inputCallback)
-		default:
+        case 13:
+            let alertview = JSSAlertView().input(self, title: "Input Field", text: "Enter a value:", buttonText: "Submit", keyboardType: .PhonePad)
+            alertview.addInput(inputCallback)
+        default:
 			print("Nada")
 		}
 	}

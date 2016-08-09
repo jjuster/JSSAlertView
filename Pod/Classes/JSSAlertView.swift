@@ -11,6 +11,7 @@
 
 import Foundation
 import UIKit
+import PhoneNumberKit
 
 public class JSSAlertView: UIViewController {
 	
@@ -311,9 +312,16 @@ public class JSSAlertView: UIViewController {
 		self.containerView.frame = CGRect(x: (self.viewWidth!-self.alertWidth)/2, y: (self.viewHeight! - yPos)/2, width: self.alertWidth, height: yPos)
 	}
 	
-    public func input(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, cancelButtonText: String?=nil, color: UIColor?=nil, iconImage: UIImage?=nil, openType: OpenType? = .SlideDown, view: UIView?=nil) -> JSSAlertViewResponder {
+    public func input(viewController: UIViewController, title: String, text: String?=nil, buttonText: String?=nil, keyboardType: UIKeyboardType? = .Default, cancelButtonText: String?=nil, color: UIColor?=nil, iconImage: UIImage?=nil, openType: OpenType? = .SlideDown, view: UIView?=nil) -> JSSAlertViewResponder {
         
-        self.input = UITextField()
+        if keyboardType! == .PhonePad {
+            self.input = PhoneNumberTextField()
+            print(PhoneNumberKit().defaultRegionCode())
+        } else {
+            self.input = UITextField()
+            self.input!.keyboardType = keyboardType!
+        }
+        
         self.suppView = view
         let alertview = self.show(viewController, title: title, text: text, buttonText: buttonText, cancelButtonText: cancelButtonText, color: color != nil ? color! : UIColorFromHex(0x3498db, alpha: 1), iconImage: iconImage, openType: openType, delay: nil)
         alertview.setTextTheme(.Light)
