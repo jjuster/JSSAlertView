@@ -33,6 +33,7 @@ public class JSSAlertView: UIViewController {
 	var isAlertOpen:Bool = false
 	var noButtons: Bool = false
     var closeType: CloseType = .SlideDown
+    var keyboardHeight : CGFloat = 0.0
     
     public enum OpenType {
         case SlideDown, FadeIn, None
@@ -187,6 +188,8 @@ public class JSSAlertView: UIViewController {
 	
 	override public init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
 		super.init(nibName:nibNameOrNil, bundle:nibBundleOrNil)
+        
+        self.registerForKeyboardNotifications()
 	}
 	
 	public required init?(coder aDecoder: NSCoder) {
@@ -197,12 +200,31 @@ public class JSSAlertView: UIViewController {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
+    
+    deinit {
+        NSNotificationCenter.defaultCenter().removeObserver(self)
+    }
+
+    func registerForKeyboardNotifications() {
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.keyboardWasShown(_:)), name: UIKeyboardDidShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.keyboardWasHidden(_:)), name: UIKeyboardDidHideNotification, object: nil)
+    }
+    
+    func keyboardWasShown(notification: NSNotification) {
+        self.keyboardHeight = notification.userInfo![UIKeyboardFrameBeginUserInfoKey]!.CGRectValue().height
+        self.viewDidLayoutSubviews()
+    }
+    
+    func keyboardWasHidden(notification: NSNotification) {
+        self.keyboardHeight = 0.0
+        self.viewDidLayoutSubviews()
+    }
 	
 	public override func viewDidLayoutSubviews() {
 		super.viewWillLayoutSubviews()
 		let size = self.rootViewControllerSize()
 		self.viewWidth = size.width
-		self.viewHeight = size.height
+		self.viewHeight = size.height - self.keyboardHeight
 		
 		var yPos:CGFloat = 0.0
 		let contentWidth:CGFloat = self.alertWidth - (self.padding*2)
