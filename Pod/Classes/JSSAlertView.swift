@@ -629,12 +629,9 @@ public class JSSAlertView: UIViewController {
 public extension UIImage {
 	class func withColor(color: UIColor) -> UIImage {
 		let rect = CGRectMake(0, 0, 1, 1)
-		UIGraphicsBeginImageContext(rect.size)
-		let context = UIGraphicsGetCurrentContext()
-		
-		CGContextSetFillColorWithColor(context, color.CGColor)
-		CGContextFillRect(context, rect)
-		
+		UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
+		color.setFill()
+		UIRectFill(rect)
 		let image = UIGraphicsGetImageFromCurrentImageContext()
 		UIGraphicsEndImageContext()
 		
