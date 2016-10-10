@@ -512,6 +512,10 @@ public class JSSAlertView: UIViewController {
     func openComplete(delay: Double?=nil) {
         self.isAlertOpen = true
         
+	if (self.input != nil) {
+            self.input!.becomeFirstResponder()
+        }
+	    
         if let d = delay {
             let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(d * Double(NSEC_PER_SEC)))
             dispatch_after(delayTime, dispatch_get_main_queue()) {
