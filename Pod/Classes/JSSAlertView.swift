@@ -475,7 +475,9 @@ public class JSSAlertView: UIViewController {
         self.definesPresentationContext = true
         self.modalPresentationStyle = .OverFullScreen
         viewController.presentViewController(self, animated: false, completion: {
-            
+            if (self.input != nil) {
+            	self.input!.becomeFirstResponder()
+            }
             if openType == .SlideDown {
                 UIView.animateWithDuration(0.2, animations: {
                     self.view.alpha = 1
