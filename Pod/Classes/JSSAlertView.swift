@@ -466,10 +466,6 @@ public class JSSAlertView: UIViewController {
 			}
 		}
 		
-        if (self.input != nil) {
-            self.input!.becomeFirstResponder()
-        }
-        
 		// Animate it in
 		self.view.alpha = 0
         self.definesPresentationContext = true
