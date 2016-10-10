@@ -466,6 +466,10 @@ public class JSSAlertView: UIViewController {
 			}
 		}
 		
+        if (self.input != nil) {
+            self.input!.becomeFirstResponder()
+        }
+        
 		// Animate it in
 		self.view.alpha = 0
         self.definesPresentationContext = true
@@ -505,10 +509,6 @@ public class JSSAlertView: UIViewController {
 	
     func openComplete(delay: Double?=nil) {
         self.isAlertOpen = true
-        
-        if (self.input != nil) {
-            self.input!.becomeFirstResponder()
-        }
         
         if let d = delay {
             let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(d * Double(NSEC_PER_SEC)))
@@ -632,13 +632,13 @@ public extension UIImage {
 		UIGraphicsBeginImageContext(rect.size)
 		let context = UIGraphicsGetCurrentContext()
 		
-		CGContextSetFillColorWithColor(context!, color.CGColor)
-		CGContextFillRect(context!, rect)
+		CGContextSetFillColorWithColor(context, color.CGColor)
+		CGContextFillRect(context, rect)
 		
 		let image = UIGraphicsGetImageFromCurrentImageContext()
 		UIGraphicsEndImageContext()
 		
-		return image!
+		return image
 	}
 }
 
