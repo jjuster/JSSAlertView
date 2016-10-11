@@ -316,7 +316,6 @@ public class JSSAlertView: UIViewController {
         
         if keyboardType! == .PhonePad {
             self.input = PhoneNumberTextField()
-            print(PhoneNumberKit().defaultRegionCode())
         } else {
             self.input = UITextField()
             self.input!.keyboardType = keyboardType!
