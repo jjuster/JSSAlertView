@@ -1,0 +1,6 @@
+framework module JSSAlertView {
+  umbrella header "JSSAlertView-iOS8.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -34,7 +34,6 @@ public class JSSAlertView: UIViewController {
 	var isAlertOpen:Bool = false
 	var noButtons: Bool = false
     var closeType: CloseType = .SlideDown
-    var keyboardHeight : CGFloat = 0.0
     
     public enum OpenType {
         case SlideDown, FadeIn, None
@@ -207,25 +206,48 @@ public class JSSAlertView: UIViewController {
     }
 
     func registerForKeyboardNotifications() {
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.keyboardWasShown(_:)), name: UIKeyboardDidShowNotification, object: nil)
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.keyboardWasHidden(_:)), name: UIKeyboardDidHideNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserverForName(UIKeyboardWillShowNotification, object: nil, queue: NSOperationQueue.mainQueue()) { (note : NSNotification) in
+            let curve = note.userInfo![UIKeyboardAnimationCurveUserInfoKey]!.integerValue
+            let duration = note.userInfo![UIKeyboardAnimationDurationUserInfoKey]!.doubleValue
+            
+            let keyboardSize = note.userInfo![UIKeyboardFrameBeginUserInfoKey]!.CGRectValue()
+            
+            let size = self.rootViewControllerSize()
+            
+            UIView.animateWithDuration(duration, delay: 0, options: .BeginFromCurrentState, animations: {
+                UIView.setAnimationCurve(UIViewAnimationCurve(rawValue: curve)!)
+                
+                let y = (size.height - self.containerView.frame.height - keyboardSize.height) / 2
+                
+                self.containerView.frame = CGRect(x: self.containerView.frame.origin.x, y: y, width: self.containerView.frame.width, height: self.containerView.frame.height)
+                
+                }, completion: nil)
+            UIView.commitAnimations()
+        }
+        
+        NSNotificationCenter.defaultCenter().addObserverForName(UIKeyboardWillHideNotification, object: nil, queue: NSOperationQueue.mainQueue()) { (note : NSNotification) in
+            let curve = note.userInfo![UIKeyboardAnimationCurveUserInfoKey]!.integerValue
+            let duration = note.userInfo![UIKeyboardAnimationDurationUserInfoKey]!.doubleValue
+            
+            let size = self.rootViewControllerSize()
+            
+            UIView.animateWithDuration(duration, delay: 0, options: .BeginFromCurrentState, animations: {
+                UIView.setAnimationCurve(UIViewAnimationCurve(rawValue: curve)!)
+
+                let y = (size.height - self.containerView.frame.height) / 2
+                
+                self.containerView.frame = CGRect(x: self.containerView.frame.origin.x, y: y, width: self.containerView.frame.width, height: self.containerView.frame.height)
+
+                }, completion: nil)
+            UIView.commitAnimations()
+        }
     }
-    
-    func keyboardWasShown(notification: NSNotification) {
-        self.keyboardHeight = notification.userInfo![UIKeyboardFrameBeginUserInfoKey]!.CGRectValue().height
-        self.viewDidLayoutSubviews()
-    }
-    
-    func keyboardWasHidden(notification: NSNotification) {
-        self.keyboardHeight = 0.0
-        self.viewDidLayoutSubviews()
-    }
-	
+
 	public override func viewDidLayoutSubviews() {
 		super.viewWillLayoutSubviews()
 		let size = self.rootViewControllerSize()
 		self.viewWidth = size.width
-		self.viewHeight = size.height - self.keyboardHeight
+		self.viewHeight = size.height
 		
 		var yPos:CGFloat = 0.0
 		let contentWidth:CGFloat = self.alertWidth - (self.padding*2)

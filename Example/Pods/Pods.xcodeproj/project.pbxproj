@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A795BDA823E1DFBE1FC008A4A521E8 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650853829861F6208A6252C96689678 /* PhoneNumber.swift */; };
 		03A9FD93E86C0CD07A37D7BF34A02F09 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CB14EA619A47EC3A7DACC2BC56B47 /* Match.swift */; };
-		04627C429E278B0D3E07AE5057840083 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A45A2871C39050EE43D6089B41851 /* TextField.swift */; };
-		057C1190E3B275C86E774A3820B7AE37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
 		07DECC64B9B23D49E4A65BED42C7A314 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC4504C952AB2BA6DD9F03449D2F81 /* QuickConfiguration.m */; };
-		0866DE686282D9D96A04EC69300FB427 /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4D4ACEA2FF80A053E65BED33EC117 /* PhoneNumberKit.swift */; };
+		094136C4A26749EC236848EEB9367434 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF3C782152201F91A43F688DA78587A /* CoreTelephony.framework */; };
 		0A215055DE00585D4A5B2A2B1DEE6FB0 /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EDC126C31BB56B2C03E3E8BE18988B /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0ED4B34D4D3E683EF951A12C93D3B700 /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F26FC203F0807FCBE7DFFBE7B6C2BD /* PartialFormatter.swift */; };
+		1006A39A3F40F0A852B5EE24BD0CE5DD /* JSSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64364B5E88F0CAD031418D63A312C13F /* JSSAlertView.swift */; };
 		109EB99F003668E3ED3868B57E1071AF /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C718DF2B0F1A8A032974F4C07FC756D /* ExampleMetadata.swift */; };
 		112614F21939902B59102E6E876ADCBC /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959B93B53512ED9D1BEEE1A6B12738B /* RaisesException.swift */; };
 		11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC009B37E88AAC964E3D7068C378B32 /* UIImage+Compare.m */; };
@@ -22,105 +21,105 @@
 		135B6326D35C977854AA0C12B3F6CB7D /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD7F1C2D3655D4E3BB4F83074CEEFF /* DSL.swift */; };
 		13CC849FA70CADF802470B6A90DCDF79 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4566A2E758D73F2C694EFCEE6E41B2 /* AllPass.swift */; };
 		1C696A0CCC5C29FFBBB8620F5DC8FA6D /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC30A7FAEFB92B73D971B34E8599E9E /* Example.swift */; };
-		1D8A8661DA00252C3482B2447BCE7856 /* JSSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A82AEED53F649F860F0EBB110D1182 /* JSSAlertView.swift */; };
+		1CF1EE13779E1656BD19016DA71BB6A9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF3C782152201F91A43F688DA78587A /* CoreTelephony.framework */; };
+		1D089D05595FED1229252AFA5BC348F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
 		1ED8C77E9422C66BBF56E6C10D5826F0 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8395AA740DE478709FE3B45F2CF1190A /* NMBExceptionCapture.m */; };
-		20A18E8D9DEA257C79CB50989565B44F /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F95AA13225624A5F5CF059C5A9E95 /* PhoneNumberParser.swift */; };
 		23626BC4DDA1A2E90A155728F57802FF /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C17ADA4979D802D635CFAC7F18D45B /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24BA48295DE470061BB55F0999CC7B28 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC8BA68D4141F27968A212999743792 /* SuiteHooks.swift */; };
-		26938E4570F5598D17EA97EA9EB57B2E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF3C782152201F91A43F688DA78587A /* CoreTelephony.framework */; };
-		2C0D03EABC7C87EAB3AF85CDD6BF50CC /* ParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E3B60C0B1E80892B0B440C14FC7D7F /* ParseOperation.swift */; };
 		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F8F36915EE1C599A1AFFA87CC338FD /* UIApplication+StrictKeyWindow.m */; };
-		2E9A72AAD27FF034802CD8F218A7CFC0 /* PhoneNumberKit-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3309058D40DAEF41EFC756EB6B6A58F4 /* PhoneNumberKit-iOS8.0-dummy.m */; };
-		307034D308EDD1AAB1C927A21C397F1A /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FDD77AF7C81E3B1EF41F24A3E9D0A7 /* Metadata.swift */; };
 		30AACAA8D51DC8C429577D9B67BB016C /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DCEEFEB941189F9482E2DB22F1466C /* BeginWith.swift */; };
 		31629295E87A24C98238C66D41983C49 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E26D6B3BA9316D4B86577155E3354 /* BeVoid.swift */; };
-		327A6481228E5B55F959C2340F10B7F3 /* Pods-JSSAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BA1FEAC89D6F64DAF5CF61984AFAA2 /* Pods-JSSAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31A4CA555D6608DD329FB79DE094EA51 /* PhoneNumberKit-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1715EEE050D1C1AF99092E41967B24F /* PhoneNumberKit-iOS8.0-dummy.m */; };
+		3230BFE03BC9D4CEAFF2F91A905BB8D0 /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = 93204A8F53092E0A8342FC38B10E2728 /* PhoneNumberMetadata.json */; };
 		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE2EB0D5D65126ADB602FE601A80410 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		36076C14B35110B528A15AF21826CCE1 /* Nimble-Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9716BFE5F2028C9E23EC4DC5CDEE9F8A /* Nimble-Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36A09777D96DA589FD7FB47DD6EDC2AB /* Nimble-Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBE10F554ABB669F505355676A0F20 /* Nimble-Snapshots-dummy.m */; };
-		38E38916401CBFEA7CE0B7B98CE7B72E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
 		38F5CE4B4C59A81734A93E32D35B696E /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D248E5056C79C7DB30DABE2668506A4A /* FailureMessage.swift */; };
 		3D1BB98DEA422D8F173613EC715488B9 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1637617E4CB6E72546B15922588C3FB8 /* PostNotification.swift */; };
 		3DB8697476CF88CF1F0DACBD6197AEA3 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A454FD17FFC0253B2ED3808B1A1C57 /* ErrorUtility.swift */; };
-		3FF88BEE81AF34C76776EED21606FDF9 /* RegularExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2781362AD3F2636E41EA13E009E5D77F /* RegularExpressions.swift */; };
+		4150A1905E25F1AA2CFF23AA0AE3FAA7 /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = 93204A8F53092E0A8342FC38B10E2728 /* PhoneNumberMetadata.json */; };
 		415F29FE4E9D970954C46CD3CF4AE345 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE274F578976F8253C1CE96E39EBAFE /* SatisfyAnyOf.swift */; };
+		422F4884D63D24267C08915DF2A6E383 /* PhoneNumberKit-iOS10.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8715BA076A02808885234A932D43BBC /* PhoneNumberKit-iOS10.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42C1B865ACFEDF0D10562F656D5278B2 /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AAC16F5F9E446CD75AF4CB1A1F1007 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		44D88EB9EEA47A1F17E3A29B494ACDEB /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = F461B1F272D82F0BC6BEDAA108A24EEE /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44DCA5FF55A426A253943F7A5437F1F6 /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = BB86C9B7339B26F1B37485F11A556C1C /* PhoneNumberMetadata.json */; };
 		4590C5BCA2EC208445197ED0FBA8DD5F /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052A67BE2C8B3A724119F7D34DFF4080 /* PhoneNumberKit.framework */; };
-		4684E15FCF261992B283EAF45910E9A1 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CF71E049C1CC4F1637D311E572100 /* MetadataTypes.swift */; };
+		4646ED71343D88A7D4838B36F2ABAC04 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9E4E3335E9122FBB4AD90B4ACAB4D /* Metadata.swift */; };
+		469E33154F7CD51A075437B243CCC1FC /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE30B1204DB11C27871CCC3F390262 /* Formatter.swift */; };
 		471F5ED0326604D6293813BCF356C3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
 		47CBCE8837CE75AE1B7484A63CE387ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
 		486B74C8EFEB68AD25CE128F3051E432 /* ObjCExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324211943E5918A1C0792CF8927D97D /* ObjCExpectation.swift */; };
 		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFCC26B1CCDA9FFBEA620C794BFB8C /* FBSnapshotTestCase-dummy.m */; };
 		499FBBE0BC69D633856BB07E2C80C0CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
 		49CA018A1EFE0681D470F5743BA8BB0F /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E822A7865EF85FB2378A4CFE3ED84D /* QuickTestSuite.swift */; };
-		49D0E928C14FFE2E3BA59BC88973D375 /* PhoneNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BA28BB90A9FD2A25B5B0280EA1599F /* PhoneNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A2EF0E72836C8432665C044C67933EA /* String+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0D62EC0015C1D619E5E658681B163 /* String+FileName.swift */; };
 		4AF6C26A30D865059C24DC5317786B76 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D592B444D618252D5B44CA4979ED51C /* BeNil.swift */; };
 		4E5A721963877AA3A6AA3D80DAA4E5E9 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472B045DD5DD82124207F9E8CB19F7B8 /* AssertionRecorder.swift */; };
+		4EFED62316A0AC7E2D8F1507AC1977C2 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C6173D9A5DF89EE1208FECA92B6AF9 /* TextField.swift */; };
 		4F2A815720216A09868A4E9CEE4A53D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
-		50BC2D1CC9E6F1C288641CD66A47300E /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F26FC203F0807FCBE7DFFBE7B6C2BD /* PartialFormatter.swift */; };
 		5104AE2989305145BF446E633B567924 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09CD23C036F19315C4BA6DE3F7E297 /* EndWith.swift */; };
+		5405340BB69504AD1F11F6FFDB6C86F9 /* RegularExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811EC9F9E3EF44A754BC213F788AA1C6 /* RegularExpressions.swift */; };
 		5438871833E759C86C2CA743AD3EF2DD /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040C0D38F4FBA45E4F8195C0654D84D /* World.swift */; };
-		5DBE91030B663EF7D48BACEE32F39229 /* PhoneNumberKit-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AADC877FD13FAD49C0DAC4FA3FC1CB /* PhoneNumberKit-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54C60734A1DB3DA3EC21C1116C84BF6E /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B30118E29CA25649F106122C1EA0299 /* PhoneNumberParser.swift */; };
 		5EF5C00C6AECE1FCFFF118577817F5CE /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B343A2A0AB5547451B8950F6BEC1A62 /* Equal.swift */; };
-		614F4F306726168C5351BA76A2010071 /* PhoneNumberKit-iOS8.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D000FF8CE78D54C9FD10D493B6ED41 /* PhoneNumberKit-iOS8.3-dummy.m */; };
 		61EBC5CF0D5E065C88028B49C6B8D3B3 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EF094222935D8D462798D004DD588F /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		620EF89D634452EFE11732FAEE6F8656 /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B30118E29CA25649F106122C1EA0299 /* PhoneNumberParser.swift */; };
 		636A1DD83197D4668B43CC94E874E892 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2C33A9EB961271E3D68A88FA12C56 /* Callsite.swift */; };
 		63BBD83995BA60FA7D2E6AD4138C0D71 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3084A5F7756405BA67701B9B47719 /* Functional.swift */; };
-		6415F3E4A5835C0AFFEA055146636C10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034930572DFD7F6FE1FCA452582A6A51 /* Constants.swift */; };
 		64539BE196D1741570018FFF86F14133 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E23FCF20FFE151AC3F4E73B8AC3ABC /* MatcherFunc.swift */; };
 		68527A7545342CBB4F923DC8543F7B20 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1278472FE3C75168D92F3D4EC20CD37D /* DSL.m */; };
 		68B245DB47CA60F8F9ADCA1E8CCDC324 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CACB624702D19886DB65E08A9D82079 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6914EE43A9B8B8D30220B3B6B0D57523 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F1280D78C09A45D7ADB62754B9CE8C /* FBSnapshotTestCase.m */; };
 		6A2416DC412F9A491A2515F9BB09A435 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = EB82DAF8204F8E592F8AFB5FD4F1671A /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B06E805D213A3A520906619E91513CA /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B5C81A770DD463DD79AE7F2E4DE8A7 /* ParseManager.swift */; };
+		6AA63E52DB0588833B1219A3F8F767BA /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000133EB06DFFF3E1E24CAE2D9F68B2 /* PhoneNumberKit.swift */; };
 		6E4A16BF4D27C48BB1FE1E1CF5E8B90E /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E53F16C69F7A1C93BC9887D79C3DC7 /* FBSnapshotTestCasePlatform.m */; };
 		6ED0409031540D9B2AD7B061B608B0C9 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA54A8BE3433F8A4A0EBC9A36B050D1 /* DSL+Wait.swift */; };
-		6EFA2FB1E4D3C09616C68416A3D4933C /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C231BB104ED37F2E451384C80085AE /* PhoneNumber.swift */; };
-		6FCA7D2A8E202CFFE7AE82AC1779E5FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
+		70FE9F185971BE055170901E830A37BB /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000133EB06DFFF3E1E24CAE2D9F68B2 /* PhoneNumberKit.swift */; };
 		7202A0B871C57B7857341D88C2883A3A /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF50B101FF92D7BC65E7C07885F1D2F /* BeIdenticalTo.swift */; };
+		73000DCB97B910B66552293895C90E4E /* Pods-JSSAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5870D41F45CCD0F982E8E12863999D9B /* Pods-JSSAlertView_Tests-dummy.m */; };
 		730FE65CF9B832FC01AB3F545A8CAF73 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B72B9CA89A9BE50CCAF92BE35CB5EF /* QuickSelectedTestSuiteBuilder.swift */; };
+		731367EC21FAF8EDEEE60BD3501645FB /* PhoneNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E2808B7EE5B4DE5C5BE83DFE1DE1129D /* PhoneNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD53EF5F0D7826970E6B3356040F795C /* XCTest.framework */; };
-		754707ADC891C7F708DF4BA29840AAEF /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = BB86C9B7339B26F1B37485F11A556C1C /* PhoneNumberMetadata.json */; };
+		762006DD15F77D39754D1F7E26FC4FC4 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404213C17C450C0143B124BBB1DB4265 /* MetadataTypes.swift */; };
 		7734BABBECE0071CF5D4430515B938BF /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D870EE21F3A3D0B05DD0BB89897EC9DD /* BeCloseTo.swift */; };
 		775646739B95E828ECE349F6A39534F4 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC068DDF5BE9C0FB3199A5855E614F /* NimbleEnvironment.swift */; };
 		78C0EDC656B9152FB603EC259D241DA5 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BCF000FFE8815E050504659F33BE58 /* FBSnapshotTestCase.framework */; };
 		7929623E9CC7C966AD703F6410B3935A /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB59AE9EA783ABB253B56A1FF023FA74 /* XCTestSuite+QuickTestSuiteBuilder.m */; };
-		7980F44E13E5A105DAF567E20E33439F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF3C782152201F91A43F688DA78587A /* CoreTelephony.framework */; };
-		7AAC09413D096D50E769A51A3F736C1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
-		7B3AE059C107B69EEA7D4236EDBDF79B /* JSSAlertView-iOS8.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F9A7957546D096FF31282A1D048695 /* JSSAlertView-iOS8.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B6B6CA36AC076DF04D37C0598D9C605 /* PhoneNumberKit-iOS10.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F2E9B41704B0DEE5E28D5190D87829 /* PhoneNumberKit-iOS10.1-dummy.m */; };
+		7BB078023AF8B2650668E1BBD32A2410 /* Pods-JSSAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BA1FEAC89D6F64DAF5CF61984AFAA2 /* Pods-JSSAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CAEA95088CF856E5543831499CE445B /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE30B1204DB11C27871CCC3F390262 /* Formatter.swift */; };
 		7CC86ABC7F4135EE12A755B023F134CE /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541B6DB76773E2E4B776E23A262E9472 /* AssertionDispatcher.swift */; };
 		7DC9B169B5FCC3EE99F6D36EC530FE1E /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95864D2E9172B3B367EC549290BA46A /* Async.swift */; };
+		7E4C4761601061D09B681C9080729B09 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404213C17C450C0143B124BBB1DB4265 /* MetadataTypes.swift */; };
 		7EBD6B630F4536CB673DC0B455CCB16D /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C00D9A9CF37FD5304FE3D41A8F296 /* BeGreaterThan.swift */; };
 		7F40FC3F4DE4EA4702F41F01A12A7353 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE206D30698074A5D8012A840D9AF79 /* BeLessThan.swift */; };
+		7FA8A92CA71103A31699D1F07DB299BF /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAAFB9373CD20BF8EF951F46FE36E /* ParseManager.swift */; };
 		800A161E9B82DEEDA41B7F1A746B24C4 /* ObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A171C099D215D9683C25051F260EFBE /* ObjCMatcher.swift */; };
 		8040A37FF5BBDF1964CAB8C0068ED315 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4573CE22461AE8D5829BA06FE9DE66 /* BeGreaterThanOrEqualTo.swift */; };
 		81E6453ECE511335537301CD3B1C1B82 /* ExceptionCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C14C5352E8F407C312B39B1D27C2A /* ExceptionCapture.swift */; };
-		824B4645849FA7006DA3BEACE9A04C83 /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F95AA13225624A5F5CF059C5A9E95 /* PhoneNumberParser.swift */; };
 		82E55B1159083B37527C20EB4E621550 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F59824AD5883D7F4C77DCE29002FC96 /* Nimble.framework */; };
 		83DA9B6F380D643725CFEE4E9AAB9F5D /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A1575B7288539029E1D12A906D7DC /* Filter.swift */; };
 		8404F7168BDB16D6157E38B56C831CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
 		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57B629A25067853327E01B9A49BD87 /* SwiftSupport.swift */; };
 		85D4DBD7E83768DAFD903EF915D1C1DA /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906B90A094B23577FBE8D378642D180 /* HooksPhase.swift */; };
 		86FB708FCFE6121A82BB09E5ADD84554 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BA647DE77F6EE8BB54A0A66C210FC8 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88608E7F01E93C2F1A13F6A7239543FD /* Pods-JSSAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5870D41F45CCD0F982E8E12863999D9B /* Pods-JSSAlertView_Tests-dummy.m */; };
 		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEC9E44B5318158B3E9828FB3679672 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D3430A8E0BEAD60EB637B316D5D4D58 /* JSSAlertView-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EDAA94A4D3D2FDBC0727FBC8890E62 /* JSSAlertView-iOS8.0-dummy.m */; };
-		8EB9DE514D402D66B0D7D6AA674A48EE /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4D4ACEA2FF80A053E65BED33EC117 /* PhoneNumberKit.swift */; };
+		8B995F51336ACBD0B2AEC3075980BB87 /* ParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AA622290B7DAAD98AA4646B2A84584 /* ParseOperation.swift */; };
 		9137D15E4C432CD4FEA43DC273C3ADE8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD53EF5F0D7826970E6B3356040F795C /* XCTest.framework */; };
 		91ED5B067FCA3CBD48E3114672941051 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A11AF721B6BA967AAE4B1718CEC52B /* MatcherProtocols.swift */; };
+		93E51A99807078D4E476B26F322714E2 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C6173D9A5DF89EE1208FECA92B6AF9 /* TextField.swift */; };
+		94F61EE6BEEF62FD11103A530868EF95 /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052A67BE2C8B3A724119F7D34DFF4080 /* PhoneNumberKit.framework */; };
 		96ED0CCA721955637A88FE0C9737EC56 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D6275F1C2A4FE86C03D21A2037F3D /* SourceLocation.swift */; };
+		9885ED994F5042D6939E19692BD28CFA /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9E4E3335E9122FBB4AD90B4ACAB4D /* Metadata.swift */; };
 		9B5DE58927557CE87968C051D2A1C47E /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96652D5739421CC8C76AD24D644FFD4 /* BeLogical.swift */; };
 		9BAEE6A607528BBFAA526CFFA5277E43 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F71695016829A9978523CC401D8E1 /* ExampleHooks.swift */; };
+		9BB1AF60D4925F3E66CAD79549DF9C9E /* PhoneNumberKit-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 144FF16EB44AC960D8B7D3691435B12F /* PhoneNumberKit-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C185CB0E0636BD9DD3E9E96A0462317 /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 69092119575980BFD800F85CAC137B4B /* NSString+QCKSelectorName.m */; };
-		9C30EDAADE5C9A4264839C1CB6C2C0CB /* PhoneNumberKit-iOS8.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E06E7ABD40250D22AC6A83AEC361E5DD /* PhoneNumberKit-iOS8.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EE41FAF2A88E2DCEEE2C974E33C398E /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D333F43C62586A3713B4E810FC02DC /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F08F74CB8740CF0EFF26746EEB0C930 /* CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C237A4C7C0B0303F6C987C613FA5E2E3 /* CurrentTestCaseTracker.m */; };
 		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 6965F99646711DA57CC7E158852BF660 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A00F4C28652B5AABC92BE17588F91060 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CF71E049C1CC4F1637D311E572100 /* MetadataTypes.swift */; };
+		A07399645C5B5E44ACF0A24287994C3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
 		A1253488850CE3B86ED19CB93A9CD3D5 /* HaveValidSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F271765E2D61AF8764965A4420095C /* HaveValidSnapshot.swift */; };
+		A177426CC37D90DD90AEEC850DE2E8E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD104CDEEBAD2AEAE75C5B1E03D36E0 /* Constants.swift */; };
 		A1CC01172276663DE4AC71EAB34ABA9F /* Pods-JSSAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F943AE4ED1DFD5318B393A4251724625 /* Pods-JSSAlertView_Example-dummy.m */; };
 		A2CABD326609AD67377700A148785E09 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99088BF91607AACA08C0ED80E421240 /* BeAnInstanceOf.swift */; };
 		A374A2729E32469085C5025EC7115EB8 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232DD20746C3354508DA5577029F0998 /* Stringers.swift */; };
@@ -128,57 +127,65 @@
 		A76AE1344634A61F11784DDDABE8C00D /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C30B69314667A2BB5920D07A0E7A1F /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A8B06933352034483F1654F21432FDCF /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99435D6A6DDC7FD6E9ADAD311DC7608F /* Closures.swift */; };
 		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
-		AC1843530F33EC98E00F1AA4D1819624 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57392485AA0E609ED8975D567C1E3D3E /* Formatter.swift */; };
 		ACB09D78794FB7AEA6EC6EDDADD38DAD /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7E4DC986FB062A05BF1EE06F44CE8 /* QCKDSL.m */; };
 		AD2D4354F429E4DBD49D327BD408A3EB /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624E95B0E9CCF3B3C9F5D24EB07F6ACD /* NSBundle+CurrentTestBundle.swift */; };
 		B1825287DE872A038A4A44623EA54C1B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8878442CF5B3CD5587DABAB67A44DD4B /* Configuration.swift */; };
 		B43EDBC7DA15A429006C67B63D45ACFD /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC7FB997A334C71688538601CDC3F6 /* ThrowError.swift */; };
 		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A28485BE51CF81C38DCB93512890CE3 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B77133D18F556390A4077F31A6913634 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FDD77AF7C81E3B1EF41F24A3E9D0A7 /* Metadata.swift */; };
 		B9D2E426B5CA226D60A78A71FA289D4C /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486B341A2821906C73166D455307990 /* AsyncMatcherWrapper.swift */; };
-		BBCBE2C2C4B6D871D18F080FD7AF3905 /* ParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E3B60C0B1E80892B0B440C14FC7D7F /* ParseOperation.swift */; };
 		BBE10615F3CD16FAF02BBD3D42B6D246 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBDBB5410E9A4201B8E41BC9B5BBAC /* World+DSL.swift */; };
-		BC2CBD968278FFAF6843DA72F33122D4 /* JSSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A82AEED53F649F860F0EBB110D1182 /* JSSAlertView.swift */; };
 		BD6302ECE07C5DD92C9826E7E6C9DBA9 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA80F0FC474225225D5B7F5A8CA34CBE /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF70CAA21CBC13C2E0408B814407D7B3 /* JSSAlertView-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8822C50347C65937DEDA7EB26D89C /* JSSAlertView-iOS8.0-dummy.m */; };
 		C033C346AC287D2009457C31E85587D1 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4955CD5F663E96A5892ACB65B263C5FB /* Quick.framework */; };
 		C12E0930E021F1894B60BC6AFA8F2409 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4B74F3FB7FC7FBDBE8C40AF48A549 /* AdapterProtocols.swift */; };
 		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BF698D34E7948EAE5E803DD6EF60C /* UIImage+Diff.m */; };
-		C56A77A9D4C82A1B1D94FBC274DA4611 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039A45A2871C39050EE43D6089B41851 /* TextField.swift */; };
+		C39D3E4ACAB56A1D9487749F6B1CF2E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD104CDEEBAD2AEAE75C5B1E03D36E0 /* Constants.swift */; };
+		C801AE99D1456AAB83C7C9D6CF314600 /* JSSAlertView-iOS10.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2325E284025CFEE2A2571097A5C823B /* JSSAlertView-iOS10.1-dummy.m */; };
 		C81FFEEC76399EF3C7C1EE349C810E76 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02BD45AC9C7B8AAAD98A84CBA3B181 /* NimbleXCTestHandler.swift */; };
 		CBB70E882E7FE0FF926730EAA0CD59DA /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91925EB4D0F106EC138F37E439249940 /* ExampleGroup.swift */; };
-		CCADEAE5444FD52D73FA1B421563E397 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034930572DFD7F6FE1FCA452582A6A51 /* Constants.swift */; };
 		CD0A671D2A8DD31D50449BB358C56134 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257EE9D2EA91CF99CEF060241656E165 /* Expression.swift */; };
-		CD9BFFB680636CCC846354C6E04DE004 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C231BB104ED37F2E451384C80085AE /* PhoneNumber.swift */; };
-		CE11D39F991B66835C147A64DD12F59E /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B5C81A770DD463DD79AE7F2E4DE8A7 /* ParseManager.swift */; };
+		CD6EB8AAAE3266F0B5120D259A3A3490 /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C60D585C70E1A1398BDE5EF85042D5 /* PartialFormatter.swift */; };
+		CE1ECE03387122429FD582C8CB236BB1 /* JSSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64364B5E88F0CAD031418D63A312C13F /* JSSAlertView.swift */; };
+		D1A895F278F7A910F0E18D6EC97DDE8C /* RegularExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811EC9F9E3EF44A754BC213F788AA1C6 /* RegularExpressions.swift */; };
 		D39881E8AB50A77DABF756314695BF25 /* PrettySyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE0A43EC6D43980DAB96248537690C7 /* PrettySyntax.swift */; };
 		D39D7A9422384FEA6463626792C00FF4 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E1EF35701D579893E80ADC092350E /* QuickSpec.m */; };
-		D3D26916741D749603E6386678764EB3 /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052A67BE2C8B3A724119F7D34DFF4080 /* PhoneNumberKit.framework */; };
 		D41F628A81153A978EB209E4FE925700 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = B233CC91D898C781C0A0161EF82716D4 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5A96A47F3EE911B5B22BA40E2562861 /* PhoneNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BA28BB90A9FD2A25B5B0280EA1599F /* PhoneNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4FCD2423A2455FCA91755DF68CCC7A /* UIImage+Snapshot.m */; };
+		D5F389B66382C4BB52BA0F9110B0A5B7 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650853829861F6208A6252C96689678 /* PhoneNumber.swift */; };
+		DA5D4E3A07FE813BF789F7B488A902AC /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDAAFB9373CD20BF8EF951F46FE36E /* ParseManager.swift */; };
 		DCA54337E8687685A293CC24A97F936C /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD308DCA8F2FD20183F8BCD799EC83 /* Contain.swift */; };
 		DCE1EDF6EFA18CE2C8CAE092FE3FA7ED /* Pods-JSSAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE0D55E6E14A57DA3C395937BFB0531 /* Pods-JSSAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF0216DBDE0084F6C87FE9275A4E9F0D /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B04250F15F7A20DD0D07DFBF8A65A06B /* Nimble-dummy.m */; };
 		E3B1EAAC82543C09339AE71FE9B31AEC /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 54964EB159B539D4A3EAE91DB665C556 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6F6FF9554A6C7EABD6B92B691751DAD /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08787BCFA6435E62DFFB428AD310CD07 /* BeLessThanOrEqual.swift */; };
-		E89499264D2D19A6584B33C1173F9C50 /* RegularExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2781362AD3F2636E41EA13E009E5D77F /* RegularExpressions.swift */; };
-		E8FE8975234A6813D20EA20371CEABF8 /* JSSAlertView-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3CCA569EC13DCE62D92856C2CAB0BC /* JSSAlertView-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E909D0D33037F3C642BBB8D47FC642B3 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37976708B8F4EE89DDE8D9E8A6E2AD92 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9A500611CF699885DE8A6BAB4E6B392 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE6C4F4F2E914C2784C1A08529CD8D /* BeEmpty.swift */; };
 		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E356E8A321EAF5895184E83D5C2B5C /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		ED60F0FCE00B05D670EAEAAB22A01B7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD53EF5F0D7826970E6B3356040F795C /* XCTest.framework */; };
 		ED6A0B20E661EA13A99C377E2213DC5F /* NimbleSnapshotsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86740C8C183F57EB58E95DBB6FF88DB4 /* NimbleSnapshotsConfiguration.swift */; };
-		EED993108513D6F13B724D2E69853D30 /* JSSAlertView-iOS8.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A9E46AEA2684CEEAA8BB22159127E /* JSSAlertView-iOS8.3-dummy.m */; };
+		EEAA9B7F69C81110DE21AA42E036AE97 /* PhoneNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E2808B7EE5B4DE5C5BE83DFE1DE1129D /* PhoneNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9030B3625AA1945401E94716847F250 /* UIKit.framework */; };
+		F120E2E5F8225B94B40EC9CAD78F32BE /* JSSAlertView-iOS10.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 424AE9CBD88681E080FF4C5FE5FE4C55 /* JSSAlertView-iOS10.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CAAA790B865C6EA2236A89B3EDEF81 /* QuartzCore.framework */; };
+		F3F5B381706018BC8A90C462851C631D /* JSSAlertView-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC4B29C2EC986FEC3CB8633763EE58A /* JSSAlertView-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C11BC5D1B6CE5DA3A68CF5173D73D /* FBSnapshotTestController.m */; };
 		F85A9207A8601CE7F835CEC56790616F /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF468D001D5C82A9950F1E67F4D5290 /* Expectation.swift */; };
 		F953B46C77C8981DBEC593D9FDCFA4C9 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1285A2372F53D6FB8B0178A14AFF12F0 /* Quick-dummy.m */; };
 		FB09A16A6662F2689D4AA89538DBF1C1 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A3B0E9BF4EB846A20155BE2B37FD52 /* BeAKindOf.swift */; };
-		FC9471EA8B18E58D7211D0D326A5DBEB /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57392485AA0E609ED8975D567C1E3D3E /* Formatter.swift */; };
+		FBE4C6DA0A11B27D695A30B1CC879432 /* ParseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AA622290B7DAAD98AA4646B2A84584 /* ParseOperation.swift */; };
+		FC956809D287208D528C1408CC8E7681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
+		FE5D0039C797429CB13DE3BE1EC3C1A7 /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C60D585C70E1A1398BDE5EF85042D5 /* PartialFormatter.swift */; };
+		FED1C3A64C541A2688AC1A83E8F140E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		063492622C49E944ABF932CE15FE0483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAE546E3D5160ADA8510ECFC2736D01;
+			remoteInfo = "JSSAlertView-iOS10.1";
+		};
 		08CF2E463EF7FD60E2D9E814F9F52E3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -186,26 +193,26 @@
 			remoteGlobalIDString = 5400BA7EF68AE488925D8E58C66B5B62;
 			remoteInfo = "JSSAlertView-iOS8.0";
 		};
-		229755423B66DA6AACF15D9B678C3073 /* PBXContainerItemProxy */ = {
+		0E1663E4991A82701FC797DE667BB9B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D603CBB93290A30D1D10A7F36FA1353C;
-			remoteInfo = "PhoneNumberKit-iOS8.0";
+			remoteGlobalIDString = 9A3AE440FB23CCC076AA408C3C4836C4;
+			remoteInfo = "Nimble-Snapshots";
+		};
+		57ABD44988A23D20F19C313272A3E178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB46EA499F9A5E22765121102FCC34B;
+			remoteInfo = FBSnapshotTestCase;
 		};
 		58E20F47F993B8D7858A0EA710807CD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D603CBB93290A30D1D10A7F36FA1353C;
+			remoteGlobalIDString = A137647BD1DA8015AE962B6D9D446BA6;
 			remoteInfo = "PhoneNumberKit-iOS8.0";
-		};
-		5BB0633BA6FB8C7A881BA4059652C726 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4BD2D26EAA4BB23685FD46899E4D5EA;
-			remoteInfo = "JSSAlertView-iOS8.3";
 		};
 		67B84CC48124DDE2ADD9AFDFBAEE034C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -228,28 +235,14 @@
 			remoteGlobalIDString = A5C430B1E2D8298FD6C5403590C0B80F;
 			remoteInfo = Quick;
 		};
-		8D780A81AF576055F97ABD09596E4AC0 /* PBXContainerItemProxy */ = {
+		9483D305E9A6B3A96BE8D29158F92891 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 24EABEE9086699879664457199A10F52;
-			remoteInfo = "PhoneNumberKit-iOS8.3";
+			remoteGlobalIDString = A137647BD1DA8015AE962B6D9D446BA6;
+			remoteInfo = "PhoneNumberKit-iOS8.0";
 		};
-		990CAB1D90305613845B18B80814EE31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A3AE440FB23CCC076AA408C3C4836C4;
-			remoteInfo = "Nimble-Snapshots";
-		};
-		A9B55996BD51F0D2AB2E847A832D2D64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF61C7C740C1B196A3B33F37B77DBC68;
-			remoteInfo = Nimble;
-		};
-		B82B1BC31D6E3E14D78E751CB1F2A6BF /* PBXContainerItemProxy */ = {
+		A5D7E62F61D67ECE32AA62F806D126B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -260,54 +253,56 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D603CBB93290A30D1D10A7F36FA1353C;
+			remoteGlobalIDString = A137647BD1DA8015AE962B6D9D446BA6;
 			remoteInfo = "PhoneNumberKit-iOS8.0";
 		};
-		F7D49A4C3C16BD50772B29187A6CEB2E /* PBXContainerItemProxy */ = {
+		DF0BD0EE8DEDA78EB83219B7AAE76200 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5DB46EA499F9A5E22765121102FCC34B;
-			remoteInfo = FBSnapshotTestCase;
+			remoteGlobalIDString = FF61C7C740C1B196A3B33F37B77DBC68;
+			remoteInfo = Nimble;
+		};
+		FB2E99C78A0A0B8CA739BC7191CC0123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC73492129895314747FC647FE0DC4B9;
+			remoteInfo = "PhoneNumberKit-iOS10.1";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C231BB104ED37F2E451384C80085AE /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = PhoneNumberKit/PhoneNumber.swift; sourceTree = "<group>"; };
-		016D79641C8BA05AC4F2AA01F08FADE3 /* JSSAlertView-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "JSSAlertView-iOS8.0.modulemap"; sourceTree = "<group>"; };
 		02E23FCF20FFE151AC3F4E73B8AC3ABC /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Wrappers/MatcherFunc.swift; sourceTree = "<group>"; };
-		034930572DFD7F6FE1FCA452582A6A51 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PhoneNumberKit/Constants.swift; sourceTree = "<group>"; };
-		039A45A2871C39050EE43D6089B41851 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = PhoneNumberKit/TextField.swift; sourceTree = "<group>"; };
 		03A7E4DC986FB062A05BF1EE06F44CE8 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		052A67BE2C8B3A724119F7D34DFF4080 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		054F8A773644093E8C06F4078DF6940E /* PhoneNumberKit-iOS10.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-iOS10.1-prefix.pch"; sourceTree = "<group>"; };
+		07527281CCD5627447E9C18249D264AE /* Pods_JSSAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08787BCFA6435E62DFFB428AD310CD07 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
-		08F26FC203F0807FCBE7DFFBE7B6C2BD /* PartialFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartialFormatter.swift; path = PhoneNumberKit/PartialFormatter.swift; sourceTree = "<group>"; };
-		08FDD77AF7C81E3B1EF41F24A3E9D0A7 /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = PhoneNumberKit/Metadata.swift; sourceTree = "<group>"; };
-		0A055117AB8568B7C9A65825F80BE158 /* JSSAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSSAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7BF698D34E7948EAE5E803DD6EF60C /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		0B151E7C5B297EA5CDFAF8A51ABD294D /* JSSAlertView-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSSAlertView-iOS8.0-prefix.pch"; path = "../JSSAlertView-iOS8.0/JSSAlertView-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
 		0B6C11BC5D1B6CE5DA3A68CF5173D73D /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0BEBE10F554ABB669F505355676A0F20 /* Nimble-Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-Snapshots-dummy.m"; sourceTree = "<group>"; };
-		0FB829BED4FB54B5B931743CCDA8F5B6 /* PhoneNumberKit-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
 		1040C0D38F4FBA45E4F8195C0654D84D /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
 		1278472FE3C75168D92F3D4EC20CD37D /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/Nimble/objc/DSL.m; sourceTree = "<group>"; };
 		1285A2372F53D6FB8B0178A14AFF12F0 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
-		1331A01C95A312D83CCEA2DF902DCFA4 /* JSSAlertView-iOS8.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "JSSAlertView-iOS8.3.xcconfig"; path = "../JSSAlertView-iOS8.3/JSSAlertView-iOS8.3.xcconfig"; sourceTree = "<group>"; };
+		128BDA4882FB9EDD2CDEFFBE95622EAC /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		144FF16EB44AC960D8B7D3691435B12F /* PhoneNumberKit-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PhoneNumberKit-iOS8.0-umbrella.h"; path = "../PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
+		14E9E4E3335E9122FBB4AD90B4ACAB4D /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = PhoneNumberKit/Metadata.swift; sourceTree = "<group>"; };
 		1637617E4CB6E72546B15922588C3FB8 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
 		17FC068DDF5BE9C0FB3199A5855E614F /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
 		18E53F16C69F7A1C93BC9887D79C3DC7 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		190130DD3247405253458EE40DC19CCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../PhoneNumberKit-iOS8.3/Info.plist"; sourceTree = "<group>"; };
 		1A171C099D215D9683C25051F260EFBE /* ObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCMatcher.swift; path = Sources/Nimble/Wrappers/ObjCMatcher.swift; sourceTree = "<group>"; };
-		1CF4D0D67B16D11901A5973CAFF1C552 /* JSSAlertView-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JSSAlertView-iOS8.0.xcconfig"; sourceTree = "<group>"; };
-		1D3A9E46AEA2684CEEAA8BB22159127E /* JSSAlertView-iOS8.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSSAlertView-iOS8.3-dummy.m"; path = "../JSSAlertView-iOS8.3/JSSAlertView-iOS8.3-dummy.m"; sourceTree = "<group>"; };
 		1D4573CE22461AE8D5829BA06FE9DE66 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
 		1DC30A7FAEFB92B73D971B34E8599E9E /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
 		1E57B629A25067853327E01B9A49BD87 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		2238FEA23A05C81516763D59DDE06799 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED6CFC68BB8536140C70BB7789E1C76 /* PhoneNumberKit-iOS10.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "PhoneNumberKit-iOS10.1.modulemap"; sourceTree = "<group>"; };
 		232DD20746C3354508DA5577029F0998 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		250C2D5F0908543EAA881974BBDA3203 /* Pods-JSSAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		257EE9D2EA91CF99CEF060241656E165 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
-		2781362AD3F2636E41EA13E009E5D77F /* RegularExpressions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularExpressions.swift; path = PhoneNumberKit/RegularExpressions.swift; sourceTree = "<group>"; };
 		28CBD4443CC1751BEB82626CEAA5371F /* Pods-JSSAlertView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSAlertView_Tests-resources.sh"; sourceTree = "<group>"; };
+		2AC53B3FBBCCDDDBF67FCAE54E0EE1EB /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B940F7E59FB840B5E925A6742BC857E /* JSSAlertView-iOS10.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSAlertView-iOS10.1-prefix.pch"; sourceTree = "<group>"; };
 		2BBC7FB997A334C71688538601CDC3F6 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		2BF50B101FF92D7BC65E7C07885F1D2F /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		2CE0D55E6E14A57DA3C395937BFB0531 /* Pods-JSSAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSSAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -316,38 +311,37 @@
 		2F59824AD5883D7F4C77DCE29002FC96 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A849D3057993D212C50F3909E5F2AE /* Pods-JSSAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSSAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		30E356E8A321EAF5895184E83D5C2B5C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		30EBD7CBAFE4BBD0D82A966400E5A5E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../JSSAlertView-iOS8.3/Info.plist"; sourceTree = "<group>"; };
-		3309058D40DAEF41EFC756EB6B6A58F4 /* PhoneNumberKit-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhoneNumberKit-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		3341075EB24057AB8537DE2A85E17914 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B72B9CA89A9BE50CCAF92BE35CB5EF /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
-		349DEC5189CF21785F0B5E470FE68ABC /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		361F95AA13225624A5F5CF059C5A9E95 /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
 		37976708B8F4EE89DDE8D9E8A6E2AD92 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
 		37BE6C4F4F2E914C2784C1A08529CD8D /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		3906B90A094B23577FBE8D378642D180 /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		39F271765E2D61AF8764965A4420095C /* HaveValidSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HaveValidSnapshot.swift; sourceTree = "<group>"; };
 		3C718DF2B0F1A8A032974F4C07FC756D /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		3FE2EB0D5D65126ADB602FE601A80410 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		40EDAA94A4D3D2FDBC0727FBC8890E62 /* JSSAlertView-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSSAlertView-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		404213C17C450C0143B124BBB1DB4265 /* MetadataTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataTypes.swift; path = PhoneNumberKit/MetadataTypes.swift; sourceTree = "<group>"; };
+		424AE9CBD88681E080FF4C5FE5FE4C55 /* JSSAlertView-iOS10.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSAlertView-iOS10.1-umbrella.h"; sourceTree = "<group>"; };
+		424BF3D41A9E91ED4496871F9984EDFA /* PhoneNumberKit-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PhoneNumberKit-iOS8.0.xcconfig"; path = "../PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0.xcconfig"; sourceTree = "<group>"; };
 		46767F695A62FFBC69C823ED8529B84C /* Pods-JSSAlertView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSAlertView_Example-resources.sh"; sourceTree = "<group>"; };
 		472B045DD5DD82124207F9E8CB19F7B8 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
+		479BE18766B2AD2E2DA9EC1DCE3FBC9F /* PhoneNumberKit-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PhoneNumberKit-iOS8.0-prefix.pch"; path = "../PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
 		4955CD5F663E96A5892ACB65B263C5FB /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3E81E369752FF05778F0D4521B32EF /* Pods_JSSAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7A1575B7288539029E1D12A906D7DC /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
-		4AC0F12831033F51ADE3C28BA3A4D3C6 /* PhoneNumberKit-iOS8.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "PhoneNumberKit-iOS8.3.modulemap"; path = "../PhoneNumberKit-iOS8.3/PhoneNumberKit-iOS8.3.modulemap"; sourceTree = "<group>"; };
 		4B778A424DCA01FCF2CF0FA7829894E4 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Nimble.modulemap; sourceTree = "<group>"; };
 		4C156DE50D2F3403C913B77217840DB5 /* Pods-JSSAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSSAlertView_Example.modulemap"; sourceTree = "<group>"; };
-		4DD4D4ACEA2FF80A053E65BED33EC117 /* PhoneNumberKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberKit.swift; path = PhoneNumberKit/PhoneNumberKit.swift; sourceTree = "<group>"; };
 		4EE206D30698074A5D8012A840D9AF79 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		4EEA85FECC35D71BEAC88636D04EFB6D /* Nimble-Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		50A469D28FD88C5D6F40FB98737ED7C2 /* Pods-JSSAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		52B3084A5F7756405BA67701B9B47719 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
 		52DFCC26B1CCDA9FFBEA620C794BFB8C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		52FFB5198280FBAAFF312AAE3B0324A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		541B6DB76773E2E4B776E23A262E9472 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		544F71695016829A9978523CC401D8E1 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
 		54964EB159B539D4A3EAE91DB665C556 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/Quick/QuickSpec.h; sourceTree = "<group>"; };
 		56BA1FEAC89D6F64DAF5CF61984AFAA2 /* Pods-JSSAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSSAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		57392485AA0E609ED8975D567C1E3D3E /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formatter.swift; path = PhoneNumberKit/Formatter.swift; sourceTree = "<group>"; };
+		56CF533BD35F254D41D31DE1729E902D /* PhoneNumberKit-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "PhoneNumberKit-iOS8.0.modulemap"; path = "../PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0.modulemap"; sourceTree = "<group>"; };
 		574D6275F1C2A4FE86C03D21A2037F3D /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
+		57C6173D9A5DF89EE1208FECA92B6AF9 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = PhoneNumberKit/TextField.swift; sourceTree = "<group>"; };
 		5870D41F45CCD0F982E8E12863999D9B /* Pods-JSSAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSSAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
 		5A28485BE51CF81C38DCB93512890CE3 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		5CCBDBB5410E9A4201B8E41BC9B5BBAC /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
@@ -356,103 +350,106 @@
 		5F5F769B4D5C6F8E6BB9F9EE245F35D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FDD7F1C2D3655D4E3BB4F83074CEEFF /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
 		5FEF29BA72A0A4E3B798515ADCD0A086 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
-		6013D591A0BDDAC2EF19D28A99EEFB96 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A7B98141EF1C0273F5109ED135B27B /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		624E95B0E9CCF3B3C9F5D24EB07F6ACD /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		62A11AF721B6BA967AAE4B1718CEC52B /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
-		62E20517E19761140C0CCD3158A8E23F /* Pods_JSSAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C60D585C70E1A1398BDE5EF85042D5 /* PartialFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartialFormatter.swift; path = PhoneNumberKit/PartialFormatter.swift; sourceTree = "<group>"; };
 		63CAAA790B865C6EA2236A89B3EDEF81 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		63F4C55ACFD75A9D3CBBC2FE3AF37396 /* Pods-JSSAlertView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSSAlertView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64AADC877FD13FAD49C0DAC4FA3FC1CB /* PhoneNumberKit-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
-		687A678AD5F791FD68D739186E5DDF08 /* PhoneNumberKit-iOS8.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PhoneNumberKit-iOS8.3.xcconfig"; path = "../PhoneNumberKit-iOS8.3/PhoneNumberKit-iOS8.3.xcconfig"; sourceTree = "<group>"; };
+		64364B5E88F0CAD031418D63A312C13F /* JSSAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSSAlertView.swift; sourceTree = "<group>"; };
+		6574E60D35B8CE2A2D771B9910F1517D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69092119575980BFD800F85CAC137B4B /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QCKSelectorName.m"; path = "Sources/Quick/NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
 		6965F99646711DA57CC7E158852BF660 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		69D345B82B983E14D3827120F9D32150 /* JSSAlertView-iOS10.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "JSSAlertView-iOS10.1.modulemap"; sourceTree = "<group>"; };
+		6D9D9DFD90681E4B45336938B6872338 /* JSSAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSSAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA2E85DC904F717C81A5E9BF7679997 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		6DFDF7A2E2F251EB929093D3610A144A /* Pods-JSSAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		706D08631F30058FB572443225AEA675 /* PhoneNumberKit-iOS8.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PhoneNumberKit-iOS8.3-prefix.pch"; path = "../PhoneNumberKit-iOS8.3/PhoneNumberKit-iOS8.3-prefix.pch"; sourceTree = "<group>"; };
 		70F1280D78C09A45D7ADB62754B9CE8C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		71C9E74FA6AEDD589763E25D21473228 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		722CF71E049C1CC4F1637D311E572100 /* MetadataTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataTypes.swift; path = PhoneNumberKit/MetadataTypes.swift; sourceTree = "<group>"; };
-		73F9A7957546D096FF31282A1D048695 /* JSSAlertView-iOS8.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSSAlertView-iOS8.3-umbrella.h"; path = "../JSSAlertView-iOS8.3/JSSAlertView-iOS8.3-umbrella.h"; sourceTree = "<group>"; };
-		75B5C81A770DD463DD79AE7F2E4DE8A7 /* ParseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseManager.swift; path = PhoneNumberKit/ParseManager.swift; sourceTree = "<group>"; };
 		7703662501095FEFA1D685D9E6DD2896 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78C3F8B68B8456AE636C2B5D4BE99994 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		7B086D594CD29575296FFDC9108F690C /* Pods-JSSAlertView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSAlertView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7B359EFBD053C9BA6B31F6C7A58636F5 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDACB2AD760C991C646546151CC2E64 /* Nimble-Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Nimble-Snapshots.xcconfig"; sourceTree = "<group>"; };
 		7BE0A43EC6D43980DAB96248537690C7 /* PrettySyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrettySyntax.swift; sourceTree = "<group>"; };
 		7C250CA474D39E20695B4FF95F5E7DD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E4566A2E758D73F2C694EFCEE6E41B2 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
-		7E9730FC7EA1483E98ED0CAF1FD97153 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82BA28BB90A9FD2A25B5B0280EA1599F /* PhoneNumberKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhoneNumberKit.h; path = PhoneNumberKit/PhoneNumberKit.h; sourceTree = "<group>"; };
+		811EC9F9E3EF44A754BC213F788AA1C6 /* RegularExpressions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularExpressions.swift; path = PhoneNumberKit/RegularExpressions.swift; sourceTree = "<group>"; };
+		82A4A082F4E686E2D658BC8143C00B1B /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EF094222935D8D462798D004DD588F /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8324211943E5918A1C0792CF8927D97D /* ObjCExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCExpectation.swift; path = Sources/Nimble/ObjCExpectation.swift; sourceTree = "<group>"; };
 		8395AA740DE478709FE3B45F2CF1190A /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
-		84BFD2EE1F99E1B9F8E93BAE4513FBF6 /* JSSAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSSAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D333F43C62586A3713B4E810FC02DC /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/Quick/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		86740C8C183F57EB58E95DBB6FF88DB4 /* NimbleSnapshotsConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NimbleSnapshotsConfiguration.swift; sourceTree = "<group>"; };
 		884D09D402DF42139CEAE53B07278DA4 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
 		8878442CF5B3CD5587DABAB67A44DD4B /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		88A2C33A9EB961271E3D68A88FA12C56 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		8AC8BA68D4141F27968A212999743792 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
+		8B30118E29CA25649F106122C1EA0299 /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
 		8CACB624702D19886DB65E08A9D82079 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		8D592B444D618252D5B44CA4979ED51C /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		8E9982617E1204D2535ADD69103FE0C3 /* Pods-JSSAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8F1B62FAC554D023F627F504579B7364 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90CE89C6DF4BB203483D5699163CC9FF /* JSSAlertView-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSAlertView-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
+		8EDDAAFB9373CD20BF8EF951F46FE36E /* ParseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseManager.swift; path = PhoneNumberKit/ParseManager.swift; sourceTree = "<group>"; };
 		91925EB4D0F106EC138F37E439249940 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		92F2E9B41704B0DEE5E28D5190D87829 /* PhoneNumberKit-iOS10.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhoneNumberKit-iOS10.1-dummy.m"; sourceTree = "<group>"; };
 		93178253567846D255177114B864C606 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93204A8F53092E0A8342FC38B10E2728 /* PhoneNumberMetadata.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = PhoneNumberMetadata.json; path = PhoneNumberKit/Resources/PhoneNumberMetadata.json; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95BA647DE77F6EE8BB54A0A66C210FC8 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/Nimble/objc/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		9716BFE5F2028C9E23EC4DC5CDEE9F8A /* Nimble-Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-Snapshots-umbrella.h"; sourceTree = "<group>"; };
-		97E3B60C0B1E80892B0B440C14FC7D7F /* ParseOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseOperation.swift; path = PhoneNumberKit/ParseOperation.swift; sourceTree = "<group>"; };
 		99435D6A6DDC7FD6E9ADAD311DC7608F /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
 		9A80FBB3CB575C9E3CEDDB48F895676B /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		9B343A2A0AB5547451B8950F6BEC1A62 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
+		9F61E26A63548CDE34F249D4EACCC167 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../JSSAlertView-iOS8.0/Info.plist"; sourceTree = "<group>"; };
 		9FC03A134D13E2A92C4582E74654AC21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A000133EB06DFFF3E1E24CAE2D9F68B2 /* PhoneNumberKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberKit.swift; path = PhoneNumberKit/PhoneNumberKit.swift; sourceTree = "<group>"; };
 		A0C17ADA4979D802D635CFAC7F18D45B /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/Nimble/objc/DSL.h; sourceTree = "<group>"; };
 		A0C30B69314667A2BB5920D07A0E7A1F /* World+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "World+DSL.h"; path = "Sources/Quick/DSL/World+DSL.h"; sourceTree = "<group>"; };
 		A486B341A2821906C73166D455307990 /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Sources/Nimble/Wrappers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
 		A5A454FD17FFC0253B2ED3808B1A1C57 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
 		A5C45C335D8D7290FF9366C1BDDFAC2A /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
+		A90DE70AAC7A7326F826FE8DEC6E70BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAA0D62EC0015C1D619E5E658681B163 /* String+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FileName.swift"; path = "Sources/Quick/String+FileName.swift"; sourceTree = "<group>"; };
 		AB4FCD2423A2455FCA91755DF68CCC7A /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AB59AE9EA783ABB253B56A1FF023FA74 /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/Quick/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
 		ADA54A8BE3433F8A4A0EBC9A36B050D1 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		AEEC4504C952AB2BA6DD9F03449D2F81 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		AF0A789FB22ADABAD6646B8409B6A89A /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
+		AFA38CB1B0C349631614D2D14B658595 /* PhoneNumberKit-iOS10.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PhoneNumberKit-iOS10.1.xcconfig"; sourceTree = "<group>"; };
 		B04250F15F7A20DD0D07DFBF8A65A06B /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
 		B0DCEEFEB941189F9482E2DB22F1466C /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
+		B1AA622290B7DAAD98AA4646B2A84584 /* ParseOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseOperation.swift; path = PhoneNumberKit/ParseOperation.swift; sourceTree = "<group>"; };
 		B21D0F1E9C8CA306BCBCA5ADC9DBCC3D /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		B233CC91D898C781C0A0161EF82716D4 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		B4BCF000FFE8815E050504659F33BE58 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E822A7865EF85FB2378A4CFE3ED84D /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
 		B6C29F4F8BF316A03387F5669F7E7215 /* Pods-JSSAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B6D000FF8CE78D54C9FD10D493B6ED41 /* PhoneNumberKit-iOS8.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PhoneNumberKit-iOS8.3-dummy.m"; path = "../PhoneNumberKit-iOS8.3/PhoneNumberKit-iOS8.3-dummy.m"; sourceTree = "<group>"; };
 		B9A3B0E9BF4EB846A20155BE2B37FD52 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		BAB3AB5D78900DB5D61BEFB6895435EA /* Pods-JSSAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSSAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB86C9B7339B26F1B37485F11A556C1C /* PhoneNumberMetadata.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = PhoneNumberMetadata.json; path = PhoneNumberKit/Resources/PhoneNumberMetadata.json; sourceTree = "<group>"; };
 		BCC009B37E88AAC964E3D7068C378B32 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		BCE274F578976F8253C1CE96E39EBAFE /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
+		BDD104CDEEBAD2AEAE75C5B1E03D36E0 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PhoneNumberKit/Constants.swift; sourceTree = "<group>"; };
 		C237A4C7C0B0303F6C987C613FA5E2E3 /* CurrentTestCaseTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CurrentTestCaseTracker.m; path = Sources/Nimble/objc/CurrentTestCaseTracker.m; sourceTree = "<group>"; };
 		C2AAC16F5F9E446CD75AF4CB1A1F1007 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/Quick/World.h; sourceTree = "<group>"; };
-		C9A82AEED53F649F860F0EBB110D1182 /* JSSAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSSAlertView.swift; sourceTree = "<group>"; };
+		C50BAF3E6CFE154FBC8EFD3B198CBCF3 /* JSSAlertView-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "JSSAlertView-iOS8.0.modulemap"; path = "../JSSAlertView-iOS8.0/JSSAlertView-iOS8.0.modulemap"; sourceTree = "<group>"; };
+		C87828C615D22B8661B04F1AD331BD0B /* JSSAlertView-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "JSSAlertView-iOS8.0.xcconfig"; path = "../JSSAlertView-iOS8.0/JSSAlertView-iOS8.0.xcconfig"; sourceTree = "<group>"; };
 		CEE4B74F3FB7FC7FBDBE8C40AF48A549 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
-		CEFB5E24487C97305B1AECEBC6B87628 /* JSSAlertView-iOS8.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "JSSAlertView-iOS8.3.modulemap"; path = "../JSSAlertView-iOS8.3/JSSAlertView-iOS8.3.modulemap"; sourceTree = "<group>"; };
 		CFD20A476D06EBC42311652B98ACEDC0 /* Pods-JSSAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSSAlertView_Tests.modulemap"; sourceTree = "<group>"; };
 		D03AE473CF8AB9D9B662A25EB477B6FD /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D03E26D6B3BA9316D4B86577155E3354 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
+		D1715EEE050D1C1AF99092E41967B24F /* PhoneNumberKit-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PhoneNumberKit-iOS8.0-dummy.m"; path = "../PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		D1A379F8A815F68BDE0D13B037537EBF /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D248E5056C79C7DB30DABE2668506A4A /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
 		D628546D824863F9719E8EAEBAC9771A /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Quick.modulemap; sourceTree = "<group>"; };
+		D774964FA2EB49BD417BCE08CCE2398B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../PhoneNumberKit-iOS8.0/Info.plist"; sourceTree = "<group>"; };
 		D79C00D9A9CF37FD5304FE3D41A8F296 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		D870EE21F3A3D0B05DD0BB89897EC9DD /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
+		D8715BA076A02808885234A932D43BBC /* PhoneNumberKit-iOS10.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-iOS10.1-umbrella.h"; sourceTree = "<group>"; };
 		DA6CB14EA619A47EC3A7DACC2BC56B47 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
-		DB3CCA569EC13DCE62D92856C2CAB0BC /* JSSAlertView-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSAlertView-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
 		DC4C14C5352E8F407C312B39B1D27C2A /* ExceptionCapture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExceptionCapture.swift; path = Sources/Nimble/Utils/ExceptionCapture.swift; sourceTree = "<group>"; };
-		DF43535DCD4C58257DE72E40F8BDAFC4 /* PhoneNumberKit-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "PhoneNumberKit-iOS8.0.modulemap"; sourceTree = "<group>"; };
-		E06E7ABD40250D22AC6A83AEC361E5DD /* PhoneNumberKit-iOS8.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PhoneNumberKit-iOS8.3-umbrella.h"; path = "../PhoneNumberKit-iOS8.3/PhoneNumberKit-iOS8.3-umbrella.h"; sourceTree = "<group>"; };
+		DCEE30B1204DB11C27871CCC3F390262 /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formatter.swift; path = PhoneNumberKit/Formatter.swift; sourceTree = "<group>"; };
+		E2808B7EE5B4DE5C5BE83DFE1DE1129D /* PhoneNumberKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhoneNumberKit.h; path = PhoneNumberKit/PhoneNumberKit.h; sourceTree = "<group>"; };
 		E29739D170B861A515A361C3D83772D3 /* Pods-JSSAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSSAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E4F8F36915EE1C599A1AFFA87CC338FD /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		E5F30C974603463AA3FC37B385778D20 /* Pods_JSSAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E650853829861F6208A6252C96689678 /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = PhoneNumberKit/PhoneNumber.swift; sourceTree = "<group>"; };
 		E95864D2E9172B3B367EC549290BA46A /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Utils/Async.swift; sourceTree = "<group>"; };
 		E96652D5739421CC8C76AD24D644FFD4 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		E99088BF91607AACA08C0ED80E421240 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
@@ -460,11 +457,13 @@
 		EA80F0FC474225225D5B7F5A8CA34CBE /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
 		EB82DAF8204F8E592F8AFB5FD4F1671A /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/Quick/Quick.h; sourceTree = "<group>"; };
 		EC02BD45AC9C7B8AAAD98A84CBA3B181 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
-		EC6B5CA848FBCE6A219603741C925DE1 /* PhoneNumberKit-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PhoneNumberKit-iOS8.0.xcconfig"; sourceTree = "<group>"; };
+		ECC4B29C2EC986FEC3CB8633763EE58A /* JSSAlertView-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSSAlertView-iOS8.0-umbrella.h"; path = "../JSSAlertView-iOS8.0/JSSAlertView-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
+		EE6B9652AAF5D3A1150B753EF4A2E052 /* JSSAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSSAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF352C274F35F048FC19453535904A55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18E1EF35701D579893E80ADC092350E /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/Quick/QuickSpec.m; sourceTree = "<group>"; };
+		F1F8822C50347C65937DEDA7EB26D89C /* JSSAlertView-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSSAlertView-iOS8.0-dummy.m"; path = "../JSSAlertView-iOS8.0/JSSAlertView-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		F2325E284025CFEE2A2571097A5C823B /* JSSAlertView-iOS10.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSSAlertView-iOS10.1-dummy.m"; sourceTree = "<group>"; };
 		F33250CBDCBFED62576BE193B175E7A6 /* Nimble-Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Nimble-Snapshots.modulemap"; sourceTree = "<group>"; };
-		F456D3ED1F6E8884F007A96B6E8DD218 /* JSSAlertView-iOS8.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSSAlertView-iOS8.3-prefix.pch"; path = "../JSSAlertView-iOS8.3/JSSAlertView-iOS8.3-prefix.pch"; sourceTree = "<group>"; };
 		F461B1F272D82F0BC6BEDAA108A24EEE /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/Quick/DSL/QCKDSL.h; sourceTree = "<group>"; };
 		F4EDC126C31BB56B2C03E3E8BE18988B /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QCKSelectorName.h"; path = "Sources/Quick/NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
 		F74129A079D1AD3C14578ADB33F28469 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
@@ -472,19 +471,11 @@
 		F943AE4ED1DFD5318B393A4251724625 /* Pods-JSSAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSSAlertView_Example-dummy.m"; sourceTree = "<group>"; };
 		F959B93B53512ED9D1BEEE1A6B12738B /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		FAF468D001D5C82A9950F1E67F4D5290 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
+		FBD3AD9DAEF70B3B23C14C0B213DD6E6 /* JSSAlertView-iOS10.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JSSAlertView-iOS10.1.xcconfig"; sourceTree = "<group>"; };
 		FD53EF5F0D7826970E6B3356040F795C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		038AF9D21AAC1709898375D5FF562B57 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7980F44E13E5A105DAF567E20E33439F /* CoreTelephony.framework in Frameworks */,
-				38E38916401CBFEA7CE0B7B98CE7B72E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0734871049471E1B9E0BD2B3E7848619 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,12 +484,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D668BEED895D80EE59A34E991025CAD /* Frameworks */ = {
+		349F545972AB4A9A6390AF878178238E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26938E4570F5598D17EA97EA9EB57B2E /* CoreTelephony.framework in Frameworks */,
-				6FCA7D2A8E202CFFE7AE82AC1779E5FC /* Foundation.framework in Frameworks */,
+				1D089D05595FED1229252AFA5BC348F7 /* Foundation.framework in Frameworks */,
+				94F61EE6BEEF62FD11103A530868EF95 /* PhoneNumberKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,12 +502,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79DB75EF7C74BD0C38B952B7BB4F3E25 /* Frameworks */ = {
+		9A0691636679AD53C5E8BC3CDE824326 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				057C1190E3B275C86E774A3820B7AE37 /* Foundation.framework in Frameworks */,
-				D3D26916741D749603E6386678764EB3 /* PhoneNumberKit.framework in Frameworks */,
+				FC956809D287208D528C1408CC8E7681 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8E33A1FDC39D0885EE6A230A723C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094136C4A26749EC236848EEB9367434 /* CoreTelephony.framework in Frameworks */,
+				FED1C3A64C541A2688AC1A83E8F140E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +540,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F108D729173154849665006A034E5A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1EE13779E1656BD19016DA71BB6A9 /* CoreTelephony.framework in Frameworks */,
+				A07399645C5B5E44ACF0A24287994C3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F1A13ADE6C7840452C8DD4B939BFD24B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -549,14 +557,6 @@
 				F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */,
 				F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */,
 				73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4A3C63E79D51107DDE9042A673DBD23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AAC09413D096D50E769A51A3F736C1A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,24 +571,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		189D7960F425D138904C5FF2CF08FAC3 /* Support Files */ = {
+		1755CDADC2AA7C3865ABE84138586A18 /* JSSAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				30EBD7CBAFE4BBD0D82A966400E5A5E3 /* Info.plist */,
-				52FFB5198280FBAAFF312AAE3B0324A0 /* Info.plist */,
-				016D79641C8BA05AC4F2AA01F08FADE3 /* JSSAlertView-iOS8.0.modulemap */,
-				1CF4D0D67B16D11901A5973CAFF1C552 /* JSSAlertView-iOS8.0.xcconfig */,
-				40EDAA94A4D3D2FDBC0727FBC8890E62 /* JSSAlertView-iOS8.0-dummy.m */,
-				90CE89C6DF4BB203483D5699163CC9FF /* JSSAlertView-iOS8.0-prefix.pch */,
-				DB3CCA569EC13DCE62D92856C2CAB0BC /* JSSAlertView-iOS8.0-umbrella.h */,
-				CEFB5E24487C97305B1AECEBC6B87628 /* JSSAlertView-iOS8.3.modulemap */,
-				1331A01C95A312D83CCEA2DF902DCFA4 /* JSSAlertView-iOS8.3.xcconfig */,
-				1D3A9E46AEA2684CEEAA8BB22159127E /* JSSAlertView-iOS8.3-dummy.m */,
-				F456D3ED1F6E8884F007A96B6E8DD218 /* JSSAlertView-iOS8.3-prefix.pch */,
-				73F9A7957546D096FF31282A1D048695 /* JSSAlertView-iOS8.3-umbrella.h */,
+				C7B01DAE80F29250A5BE52BA7A3E4285 /* Pod */,
+				F274D09D453D66A5BC22EE42433FBB35 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JSSAlertView-iOS8.0";
+			name = JSSAlertView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		1EB47FBAFF6F1265AB660D5CB005E864 /* Nimble-Snapshots */ = {
@@ -742,10 +732,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7321615CA9FC0FB0A7C50AE502613A8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93204A8F53092E0A8342FC38B10E2728 /* PhoneNumberMetadata.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7BD7886BF2A2A3552372DE1747247EF6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A80DE1BCD70C8195B6A34D08EFA0DB6E /* JSSAlertView */,
+				1755CDADC2AA7C3865ABE84138586A18 /* JSSAlertView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -757,32 +755,24 @@
 				7BD7886BF2A2A3552372DE1747247EF6 /* Development Pods */,
 				EB6DC8FD0211773C9759A6031F439F1D /* Frameworks */,
 				D5D4B93C0405C1C3BB40B377046AAD53 /* Pods */,
-				89C358627794CCA91A9C2CDC398F1A75 /* Products */,
+				81D36DEFFE6AFB851D6743FD9C91915C /* Products */,
 				8EF500373A2E834F2DE65F55800A678D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7EF5389C1B887AB7DDA0CF21394AF526 /* Resources */ = {
+		81D36DEFFE6AFB851D6743FD9C91915C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB86C9B7339B26F1B37485F11A556C1C /* PhoneNumberMetadata.json */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		89C358627794CCA91A9C2CDC398F1A75 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2238FEA23A05C81516763D59DDE06799 /* FBSnapshotTestCase.framework */,
-				84BFD2EE1F99E1B9F8E93BAE4513FBF6 /* JSSAlertView.framework */,
-				0A055117AB8568B7C9A65825F80BE158 /* JSSAlertView.framework */,
-				349DEC5189CF21785F0B5E470FE68ABC /* Nimble.framework */,
-				6013D591A0BDDAC2EF19D28A99EEFB96 /* Nimble_Snapshots.framework */,
-				7B359EFBD053C9BA6B31F6C7A58636F5 /* PhoneNumberKit.framework */,
-				7E9730FC7EA1483E98ED0CAF1FD97153 /* PhoneNumberKit.framework */,
-				E5F30C974603463AA3FC37B385778D20 /* Pods_JSSAlertView_Example.framework */,
-				62E20517E19761140C0CCD3158A8E23F /* Pods_JSSAlertView_Tests.framework */,
-				8F1B62FAC554D023F627F504579B7364 /* Quick.framework */,
+				61A7B98141EF1C0273F5109ED135B27B /* FBSnapshotTestCase.framework */,
+				6D9D9DFD90681E4B45336938B6872338 /* JSSAlertView.framework */,
+				EE6B9652AAF5D3A1150B753EF4A2E052 /* JSSAlertView.framework */,
+				3341075EB24057AB8537DE2A85E17914 /* Nimble.framework */,
+				128BDA4882FB9EDD2CDEFFBE95622EAC /* Nimble_Snapshots.framework */,
+				D1A379F8A815F68BDE0D13B037537EBF /* PhoneNumberKit.framework */,
+				82A4A082F4E686E2D658BC8143C00B1B /* PhoneNumberKit.framework */,
+				4A3E81E369752FF05778F0D4521B32EF /* Pods_JSSAlertView_Example.framework */,
+				07527281CCD5627447E9C18249D264AE /* Pods_JSSAlertView_Tests.framework */,
+				2AC53B3FBBCCDDDBF67FCAE54E0EE1EB /* Quick.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -810,14 +800,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A80DE1BCD70C8195B6A34D08EFA0DB6E /* JSSAlertView */ = {
+		A17D451F223C2FA300B500A432D03977 /* PhoneNumberKit */ = {
 			isa = PBXGroup;
 			children = (
-				C38F9E9EA5B9CE0B9995F43A683C5D30 /* Pod */,
-				189D7960F425D138904C5FF2CF08FAC3 /* Support Files */,
+				BDD104CDEEBAD2AEAE75C5B1E03D36E0 /* Constants.swift */,
+				DCEE30B1204DB11C27871CCC3F390262 /* Formatter.swift */,
+				14E9E4E3335E9122FBB4AD90B4ACAB4D /* Metadata.swift */,
+				404213C17C450C0143B124BBB1DB4265 /* MetadataTypes.swift */,
+				8EDDAAFB9373CD20BF8EF951F46FE36E /* ParseManager.swift */,
+				B1AA622290B7DAAD98AA4646B2A84584 /* ParseOperation.swift */,
+				63C60D585C70E1A1398BDE5EF85042D5 /* PartialFormatter.swift */,
+				E650853829861F6208A6252C96689678 /* PhoneNumber.swift */,
+				E2808B7EE5B4DE5C5BE83DFE1DE1129D /* PhoneNumberKit.h */,
+				A000133EB06DFFF3E1E24CAE2D9F68B2 /* PhoneNumberKit.swift */,
+				8B30118E29CA25649F106122C1EA0299 /* PhoneNumberParser.swift */,
+				811EC9F9E3EF44A754BC213F788AA1C6 /* RegularExpressions.swift */,
+				57C6173D9A5DF89EE1208FECA92B6AF9 /* TextField.swift */,
+				7321615CA9FC0FB0A7C50AE502613A8E /* Resources */,
+				E153C53DD1384EF3A76CB66779CFFC49 /* Support Files */,
 			);
-			name = JSSAlertView;
-			path = ../..;
+			path = PhoneNumberKit;
+			sourceTree = "<group>";
+		};
+		ADC912E1AD945A81BEF7D518D63A8BE0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				64364B5E88F0CAD031418D63A312C13F /* JSSAlertView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B9CEC8941FC929754E40D5E3E32C776C /* Support Files */ = {
@@ -834,10 +844,10 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		C38F9E9EA5B9CE0B9995F43A683C5D30 /* Pod */ = {
+		C7B01DAE80F29250A5BE52BA7A3E4285 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E0E53D722804AD1FF68E584FBCEF7ECC /* Classes */,
+				ADC912E1AD945A81BEF7D518D63A8BE0 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -850,28 +860,6 @@
 				F85EA50D8191C22739488B0652C08851 /* SwiftSupport */,
 			);
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		CFD73212D53738F718F99962EA7F6838 /* PhoneNumberKit */ = {
-			isa = PBXGroup;
-			children = (
-				034930572DFD7F6FE1FCA452582A6A51 /* Constants.swift */,
-				57392485AA0E609ED8975D567C1E3D3E /* Formatter.swift */,
-				08FDD77AF7C81E3B1EF41F24A3E9D0A7 /* Metadata.swift */,
-				722CF71E049C1CC4F1637D311E572100 /* MetadataTypes.swift */,
-				75B5C81A770DD463DD79AE7F2E4DE8A7 /* ParseManager.swift */,
-				97E3B60C0B1E80892B0B440C14FC7D7F /* ParseOperation.swift */,
-				08F26FC203F0807FCBE7DFFBE7B6C2BD /* PartialFormatter.swift */,
-				00C231BB104ED37F2E451384C80085AE /* PhoneNumber.swift */,
-				82BA28BB90A9FD2A25B5B0280EA1599F /* PhoneNumberKit.h */,
-				4DD4D4ACEA2FF80A053E65BED33EC117 /* PhoneNumberKit.swift */,
-				361F95AA13225624A5F5CF059C5A9E95 /* PhoneNumberParser.swift */,
-				2781362AD3F2636E41EA13E009E5D77F /* RegularExpressions.swift */,
-				039A45A2871C39050EE43D6089B41851 /* TextField.swift */,
-				7EF5389C1B887AB7DDA0CF21394AF526 /* Resources */,
-				F9FAD3241131F5B30526A38314CE47B0 /* Support Files */,
-			);
-			path = PhoneNumberKit;
 			sourceTree = "<group>";
 		};
 		D3E8B21D57709693320D29C77A91B51E /* Quick */ = {
@@ -918,18 +906,30 @@
 				CFADE5CB68A5961D6FB4B850DCE7ADB7 /* FBSnapshotTestCase */,
 				221023875B0580B26B4BB31E27F41EE3 /* Nimble */,
 				1EB47FBAFF6F1265AB660D5CB005E864 /* Nimble-Snapshots */,
-				CFD73212D53738F718F99962EA7F6838 /* PhoneNumberKit */,
+				A17D451F223C2FA300B500A432D03977 /* PhoneNumberKit */,
 				D3E8B21D57709693320D29C77A91B51E /* Quick */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E0E53D722804AD1FF68E584FBCEF7ECC /* Classes */ = {
+		E153C53DD1384EF3A76CB66779CFFC49 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C9A82AEED53F649F860F0EBB110D1182 /* JSSAlertView.swift */,
+				D774964FA2EB49BD417BCE08CCE2398B /* Info.plist */,
+				6574E60D35B8CE2A2D771B9910F1517D /* Info.plist */,
+				1ED6CFC68BB8536140C70BB7789E1C76 /* PhoneNumberKit-iOS10.1.modulemap */,
+				AFA38CB1B0C349631614D2D14B658595 /* PhoneNumberKit-iOS10.1.xcconfig */,
+				92F2E9B41704B0DEE5E28D5190D87829 /* PhoneNumberKit-iOS10.1-dummy.m */,
+				054F8A773644093E8C06F4078DF6940E /* PhoneNumberKit-iOS10.1-prefix.pch */,
+				D8715BA076A02808885234A932D43BBC /* PhoneNumberKit-iOS10.1-umbrella.h */,
+				56CF533BD35F254D41D31DE1729E902D /* PhoneNumberKit-iOS8.0.modulemap */,
+				424BF3D41A9E91ED4496871F9984EDFA /* PhoneNumberKit-iOS8.0.xcconfig */,
+				D1715EEE050D1C1AF99092E41967B24F /* PhoneNumberKit-iOS8.0-dummy.m */,
+				479BE18766B2AD2E2DA9EC1DCE3FBC9F /* PhoneNumberKit-iOS8.0-prefix.pch */,
+				144FF16EB44AC960D8B7D3691435B12F /* PhoneNumberKit-iOS8.0-umbrella.h */,
 			);
-			path = Classes;
+			name = "Support Files";
+			path = "../Target Support Files/PhoneNumberKit-iOS10.1";
 			sourceTree = "<group>";
 		};
 		EB6DC8FD0211773C9759A6031F439F1D /* Frameworks */ = {
@@ -942,6 +942,26 @@
 				72FB9EE2FAB4E861AFB94DE045700B37 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F274D09D453D66A5BC22EE42433FBB35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F61E26A63548CDE34F249D4EACCC167 /* Info.plist */,
+				A90DE70AAC7A7326F826FE8DEC6E70BA /* Info.plist */,
+				69D345B82B983E14D3827120F9D32150 /* JSSAlertView-iOS10.1.modulemap */,
+				FBD3AD9DAEF70B3B23C14C0B213DD6E6 /* JSSAlertView-iOS10.1.xcconfig */,
+				F2325E284025CFEE2A2571097A5C823B /* JSSAlertView-iOS10.1-dummy.m */,
+				2B940F7E59FB840B5E925A6742BC857E /* JSSAlertView-iOS10.1-prefix.pch */,
+				424AE9CBD88681E080FF4C5FE5FE4C55 /* JSSAlertView-iOS10.1-umbrella.h */,
+				C50BAF3E6CFE154FBC8EFD3B198CBCF3 /* JSSAlertView-iOS8.0.modulemap */,
+				C87828C615D22B8661B04F1AD331BD0B /* JSSAlertView-iOS8.0.xcconfig */,
+				F1F8822C50347C65937DEDA7EB26D89C /* JSSAlertView-iOS8.0-dummy.m */,
+				0B151E7C5B297EA5CDFAF8A51ABD294D /* JSSAlertView-iOS8.0-prefix.pch */,
+				ECC4B29C2EC986FEC3CB8633763EE58A /* JSSAlertView-iOS8.0-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSSAlertView-iOS10.1";
 			sourceTree = "<group>";
 		};
 		F85EA50D8191C22739488B0652C08851 /* SwiftSupport */ = {
@@ -966,26 +986,6 @@
 			path = "../Target Support Files/Nimble";
 			sourceTree = "<group>";
 		};
-		F9FAD3241131F5B30526A38314CE47B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				190130DD3247405253458EE40DC19CCF /* Info.plist */,
-				71C9E74FA6AEDD589763E25D21473228 /* Info.plist */,
-				DF43535DCD4C58257DE72E40F8BDAFC4 /* PhoneNumberKit-iOS8.0.modulemap */,
-				EC6B5CA848FBCE6A219603741C925DE1 /* PhoneNumberKit-iOS8.0.xcconfig */,
-				3309058D40DAEF41EFC756EB6B6A58F4 /* PhoneNumberKit-iOS8.0-dummy.m */,
-				0FB829BED4FB54B5B931743CCDA8F5B6 /* PhoneNumberKit-iOS8.0-prefix.pch */,
-				64AADC877FD13FAD49C0DAC4FA3FC1CB /* PhoneNumberKit-iOS8.0-umbrella.h */,
-				4AC0F12831033F51ADE3C28BA3A4D3C6 /* PhoneNumberKit-iOS8.3.modulemap */,
-				687A678AD5F791FD68D739186E5DDF08 /* PhoneNumberKit-iOS8.3.xcconfig */,
-				B6D000FF8CE78D54C9FD10D493B6ED41 /* PhoneNumberKit-iOS8.3-dummy.m */,
-				706D08631F30058FB572443225AEA675 /* PhoneNumberKit-iOS8.3-prefix.pch */,
-				E06E7ABD40250D22AC6A83AEC361E5DD /* PhoneNumberKit-iOS8.3-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PhoneNumberKit-iOS8.0";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1004,12 +1004,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4462F2FE3F63EBF97DA176A3159B0DE6 /* Headers */ = {
+		1F3A15F4A243E2D783868D3403976FAC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DBE91030B663EF7D48BACEE32F39229 /* PhoneNumberKit-iOS8.0-umbrella.h in Headers */,
-				D5A96A47F3EE911B5B22BA40E2562861 /* PhoneNumberKit.h in Headers */,
+				7BB078023AF8B2650668E1BBD32A2410 /* Pods-JSSAlertView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B1BC962A8653B48F435880791C1E24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F120E2E5F8225B94B40EC9CAD78F32BE /* JSSAlertView-iOS10.1-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1024,22 +1031,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		586D1DF619D444B0F32C592790596A6F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				327A6481228E5B55F959C2340F10B7F3 /* Pods-JSSAlertView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65AA1E3017BCB0D6324066502AE2C3C9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B3AE059C107B69EEA7D4236EDBDF79B /* JSSAlertView-iOS8.3-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66E7DB4DE2644F5F693D68CBD15564AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1048,11 +1039,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6866C65352517BE8CA9923F793FA1278 /* Headers */ = {
+		758AF23930D75EC70E9D2CCA31A60FC4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FE8975234A6813D20EA20371CEABF8 /* JSSAlertView-iOS8.0-umbrella.h in Headers */,
+				F3F5B381706018BC8A90C462851C631D /* JSSAlertView-iOS8.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1071,15 +1062,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E31098AADF9C66C593AF9BCA95D2772 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C30EDAADE5C9A4264839C1CB6C2C0CB /* PhoneNumberKit-iOS8.3-umbrella.h in Headers */,
-				49D0E928C14FFE2E3BA59BC88973D375 /* PhoneNumberKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9216662332E840F90FB239C718BEA157 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1088,34 +1070,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEE814C72E3B2B6ACFD906978E5C6B34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB1AF60D4925F3E66CAD79549DF9C9E /* PhoneNumberKit-iOS8.0-umbrella.h in Headers */,
+				731367EC21FAF8EDEEE60BD3501645FB /* PhoneNumberKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B5D553E0207C2B05884832A88BCB7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422F4884D63D24267C08915DF2A6E383 /* PhoneNumberKit-iOS10.1-umbrella.h in Headers */,
+				EEAA9B7F69C81110DE21AA42E036AE97 /* PhoneNumberKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		24EABEE9086699879664457199A10F52 /* PhoneNumberKit-iOS8.3 */ = {
+		4FAE546E3D5160ADA8510ECFC2736D01 /* JSSAlertView-iOS10.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18ED104B2B6142DA0BC4ED995F55DB28 /* Build configuration list for PBXNativeTarget "PhoneNumberKit-iOS8.3" */;
+			buildConfigurationList = 5542E40E326D43CA5F96A0882BB930CF /* Build configuration list for PBXNativeTarget "JSSAlertView-iOS10.1" */;
 			buildPhases = (
-				75A4BD3C1B5194EDFF9FB288BE0A89F9 /* Sources */,
-				1D668BEED895D80EE59A34E991025CAD /* Frameworks */,
-				8E31098AADF9C66C593AF9BCA95D2772 /* Headers */,
-				EDE1E86C85CF6F7DDEEE71219FAF82F6 /* Resources */,
+				5A01F6815E8CBD4226B8B969AFE227AC /* Sources */,
+				349F545972AB4A9A6390AF878178238E /* Frameworks */,
+				37B1BC962A8653B48F435880791C1E24 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7A48AC28FCB75625CB35D721DD6AA9B4 /* PBXTargetDependency */,
 			);
-			name = "PhoneNumberKit-iOS8.3";
-			productName = "PhoneNumberKit-iOS8.3";
-			productReference = 7E9730FC7EA1483E98ED0CAF1FD97153 /* PhoneNumberKit.framework */;
+			name = "JSSAlertView-iOS10.1";
+			productName = "JSSAlertView-iOS10.1";
+			productReference = 6D9D9DFD90681E4B45336938B6872338 /* JSSAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5400BA7EF68AE488925D8E58C66B5B62 /* JSSAlertView-iOS8.0 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EB5EB15B09F29A73903D14DD8F100FF /* Build configuration list for PBXNativeTarget "JSSAlertView-iOS8.0" */;
 			buildPhases = (
-				B26DAF8D10DE3F2115404877F0CC404E /* Sources */,
+				F3EBED97D21BAF151897020644867F18 /* Sources */,
 				E11DDACFE738C11C2D1CCF73611CF58E /* Frameworks */,
-				6866C65352517BE8CA9923F793FA1278 /* Headers */,
+				758AF23930D75EC70E9D2CCA31A60FC4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1124,7 +1124,7 @@
 			);
 			name = "JSSAlertView-iOS8.0";
 			productName = "JSSAlertView-iOS8.0";
-			productReference = 84BFD2EE1F99E1B9F8E93BAE4513FBF6 /* JSSAlertView.framework */;
+			productReference = EE6B9652AAF5D3A1150B753EF4A2E052 /* JSSAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */ = {
@@ -1141,7 +1141,7 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 2238FEA23A05C81516763D59DDE06799 /* FBSnapshotTestCase.framework */;
+			productReference = 61A7B98141EF1C0273F5109ED135B27B /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A3AE440FB23CCC076AA408C3C4836C4 /* Nimble-Snapshots */ = {
@@ -1161,7 +1161,25 @@
 			);
 			name = "Nimble-Snapshots";
 			productName = "Nimble-Snapshots";
-			productReference = 6013D591A0BDDAC2EF19D28A99EEFB96 /* Nimble_Snapshots.framework */;
+			productReference = 128BDA4882FB9EDD2CDEFFBE95622EAC /* Nimble_Snapshots.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A137647BD1DA8015AE962B6D9D446BA6 /* PhoneNumberKit-iOS8.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E89D02F76473C8E89E8F187D369A8E /* Build configuration list for PBXNativeTarget "PhoneNumberKit-iOS8.0" */;
+			buildPhases = (
+				6758924BDFC2342CAEEF2D38C4D9CD2F /* Sources */,
+				BC8E33A1FDC39D0885EE6A230A723C30 /* Frameworks */,
+				BEE814C72E3B2B6ACFD906978E5C6B34 /* Headers */,
+				CCF0F467AD6A7964FB6887B1E0B75098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhoneNumberKit-iOS8.0";
+			productName = "PhoneNumberKit-iOS8.0";
+			productReference = 82A4A082F4E686E2D658BC8143C00B1B /* PhoneNumberKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A5C430B1E2D8298FD6C5403590C0B80F /* Quick */ = {
@@ -1178,30 +1196,48 @@
 			);
 			name = Quick;
 			productName = Quick;
-			productReference = 8F1B62FAC554D023F627F504579B7364 /* Quick.framework */;
+			productReference = 2AC53B3FBBCCDDDBF67FCAE54E0EE1EB /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AE512C48853F7C4FA0CE7841DB373778 /* Pods-JSSAlertView_Tests */ = {
+		A9B189ABD024E105B96B242DAB32C16B /* Pods-JSSAlertView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E09D88548D572C9F3A9970DE86D0A32 /* Build configuration list for PBXNativeTarget "Pods-JSSAlertView_Tests" */;
+			buildConfigurationList = 7A59E043B2552871B654E9F015C481ED /* Build configuration list for PBXNativeTarget "Pods-JSSAlertView_Tests" */;
 			buildPhases = (
-				A61C447E8E04FC537BAD169345920621 /* Sources */,
-				F4A3C63E79D51107DDE9042A673DBD23 /* Frameworks */,
-				586D1DF619D444B0F32C592790596A6F /* Headers */,
+				5202327B349FC1F892AE6BC417B6EA2B /* Sources */,
+				9A0691636679AD53C5E8BC3CDE824326 /* Frameworks */,
+				1F3A15F4A243E2D783868D3403976FAC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F7218BDB32A9D9F17ABA400070E78459 /* PBXTargetDependency */,
-				4EE7142B3F50D346845524553B30F013 /* PBXTargetDependency */,
-				EC01B128DBC7D52B3C8D5E1877232D40 /* PBXTargetDependency */,
-				81DEDD1B23977D66058EFB48832A8CFB /* PBXTargetDependency */,
-				AD4327433C43F7B35C261EBBB62F558C /* PBXTargetDependency */,
-				28504CDA6F86866797EB8F865D83F1B1 /* PBXTargetDependency */,
+				388FDF229CEE38D7C93AF7CA49814A38 /* PBXTargetDependency */,
+				6FC54F5FB8774C0B5B76B59A3E5CAFDD /* PBXTargetDependency */,
+				69B8C33C49D0E54BAC3A7207190EC69E /* PBXTargetDependency */,
+				45B54E70524CAEAB2485391B1E004B29 /* PBXTargetDependency */,
+				CF7F140305AA66E30ABE08BEA5C5BDF1 /* PBXTargetDependency */,
+				C8034379F440C587829D6198D5D384F2 /* PBXTargetDependency */,
 			);
 			name = "Pods-JSSAlertView_Tests";
 			productName = "Pods-JSSAlertView_Tests";
-			productReference = 62E20517E19761140C0CCD3158A8E23F /* Pods_JSSAlertView_Tests.framework */;
+			productReference = 07527281CCD5627447E9C18249D264AE /* Pods_JSSAlertView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC73492129895314747FC647FE0DC4B9 /* PhoneNumberKit-iOS10.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAF61D9CC615A532760DDEA516ECD45 /* Build configuration list for PBXNativeTarget "PhoneNumberKit-iOS10.1" */;
+			buildPhases = (
+				09F052F2A829F518E8F2D585484AE47E /* Sources */,
+				F108D729173154849665006A034E5A9B /* Frameworks */,
+				E3B5D553E0207C2B05884832A88BCB7D /* Headers */,
+				C690B9D49DDAAEE69BB3367D90F1B839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhoneNumberKit-iOS10.1";
+			productName = "PhoneNumberKit-iOS10.1";
+			productReference = D1A379F8A815F68BDE0D13B037537EBF /* PhoneNumberKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CC1F0438FE067CEF08903314668C794B /* Pods-JSSAlertView_Example */ = {
@@ -1220,43 +1256,7 @@
 			);
 			name = "Pods-JSSAlertView_Example";
 			productName = "Pods-JSSAlertView_Example";
-			productReference = E5F30C974603463AA3FC37B385778D20 /* Pods_JSSAlertView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D603CBB93290A30D1D10A7F36FA1353C /* PhoneNumberKit-iOS8.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F30CE3F0234C926B024849E8A5188671 /* Build configuration list for PBXNativeTarget "PhoneNumberKit-iOS8.0" */;
-			buildPhases = (
-				0BE4F984539062C2AD228C832A25F015 /* Sources */,
-				038AF9D21AAC1709898375D5FF562B57 /* Frameworks */,
-				4462F2FE3F63EBF97DA176A3159B0DE6 /* Headers */,
-				07BC193229F73AE5DADD5799BD5961BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PhoneNumberKit-iOS8.0";
-			productName = "PhoneNumberKit-iOS8.0";
-			productReference = 7B359EFBD053C9BA6B31F6C7A58636F5 /* PhoneNumberKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F4BD2D26EAA4BB23685FD46899E4D5EA /* JSSAlertView-iOS8.3 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43F7846C4D2CFFB81A2554D1CC60A0F2 /* Build configuration list for PBXNativeTarget "JSSAlertView-iOS8.3" */;
-			buildPhases = (
-				AB750F84D6865C56DA8063D8ECED3799 /* Sources */,
-				79DB75EF7C74BD0C38B952B7BB4F3E25 /* Frameworks */,
-				65AA1E3017BCB0D6324066502AE2C3C9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FD9B04662E4287DE04E08AD24C59F3A1 /* PBXTargetDependency */,
-			);
-			name = "JSSAlertView-iOS8.3";
-			productName = "JSSAlertView-iOS8.3";
-			productReference = 0A055117AB8568B7C9A65825F80BE158 /* JSSAlertView.framework */;
+			productReference = 4A3E81E369752FF05778F0D4521B32EF /* Pods_JSSAlertView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */ = {
@@ -1273,7 +1273,7 @@
 			);
 			name = Nimble;
 			productName = Nimble;
-			productReference = 349DEC5189CF21785F0B5E470FE68ABC /* Nimble.framework */;
+			productReference = 3341075EB24057AB8537DE2A85E17914 /* Nimble.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1293,61 +1293,61 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 89C358627794CCA91A9C2CDC398F1A75 /* Products */;
+			productRefGroup = 81D36DEFFE6AFB851D6743FD9C91915C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */,
+				4FAE546E3D5160ADA8510ECFC2736D01 /* JSSAlertView-iOS10.1 */,
 				5400BA7EF68AE488925D8E58C66B5B62 /* JSSAlertView-iOS8.0 */,
-				F4BD2D26EAA4BB23685FD46899E4D5EA /* JSSAlertView-iOS8.3 */,
 				FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */,
 				9A3AE440FB23CCC076AA408C3C4836C4 /* Nimble-Snapshots */,
-				D603CBB93290A30D1D10A7F36FA1353C /* PhoneNumberKit-iOS8.0 */,
-				24EABEE9086699879664457199A10F52 /* PhoneNumberKit-iOS8.3 */,
+				AC73492129895314747FC647FE0DC4B9 /* PhoneNumberKit-iOS10.1 */,
+				A137647BD1DA8015AE962B6D9D446BA6 /* PhoneNumberKit-iOS8.0 */,
 				CC1F0438FE067CEF08903314668C794B /* Pods-JSSAlertView_Example */,
-				AE512C48853F7C4FA0CE7841DB373778 /* Pods-JSSAlertView_Tests */,
+				A9B189ABD024E105B96B242DAB32C16B /* Pods-JSSAlertView_Tests */,
 				A5C430B1E2D8298FD6C5403590C0B80F /* Quick */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07BC193229F73AE5DADD5799BD5961BD /* Resources */ = {
+		C690B9D49DDAAEE69BB3367D90F1B839 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				754707ADC891C7F708DF4BA29840AAEF /* PhoneNumberMetadata.json in Resources */,
+				3230BFE03BC9D4CEAFF2F91A905BB8D0 /* PhoneNumberMetadata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDE1E86C85CF6F7DDEEE71219FAF82F6 /* Resources */ = {
+		CCF0F467AD6A7964FB6887B1E0B75098 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44DCA5FF55A426A253943F7A5437F1F6 /* PhoneNumberMetadata.json in Resources */,
+				4150A1905E25F1AA2CFF23AA0AE3FAA7 /* PhoneNumberMetadata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BE4F984539062C2AD228C832A25F015 /* Sources */ = {
+		09F052F2A829F518E8F2D585484AE47E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCADEAE5444FD52D73FA1B421563E397 /* Constants.swift in Sources */,
-				FC9471EA8B18E58D7211D0D326A5DBEB /* Formatter.swift in Sources */,
-				307034D308EDD1AAB1C927A21C397F1A /* Metadata.swift in Sources */,
-				A00F4C28652B5AABC92BE17588F91060 /* MetadataTypes.swift in Sources */,
-				6B06E805D213A3A520906619E91513CA /* ParseManager.swift in Sources */,
-				2C0D03EABC7C87EAB3AF85CDD6BF50CC /* ParseOperation.swift in Sources */,
-				50BC2D1CC9E6F1C288641CD66A47300E /* PartialFormatter.swift in Sources */,
-				CD9BFFB680636CCC846354C6E04DE004 /* PhoneNumber.swift in Sources */,
-				2E9A72AAD27FF034802CD8F218A7CFC0 /* PhoneNumberKit-iOS8.0-dummy.m in Sources */,
-				8EB9DE514D402D66B0D7D6AA674A48EE /* PhoneNumberKit.swift in Sources */,
-				824B4645849FA7006DA3BEACE9A04C83 /* PhoneNumberParser.swift in Sources */,
-				E89499264D2D19A6584B33C1173F9C50 /* RegularExpressions.swift in Sources */,
-				04627C429E278B0D3E07AE5057840083 /* TextField.swift in Sources */,
+				C39D3E4ACAB56A1D9487749F6B1CF2E1 /* Constants.swift in Sources */,
+				469E33154F7CD51A075437B243CCC1FC /* Formatter.swift in Sources */,
+				9885ED994F5042D6939E19692BD28CFA /* Metadata.swift in Sources */,
+				7E4C4761601061D09B681C9080729B09 /* MetadataTypes.swift in Sources */,
+				7FA8A92CA71103A31699D1F07DB299BF /* ParseManager.swift in Sources */,
+				FBE4C6DA0A11B27D695A30B1CC879432 /* ParseOperation.swift in Sources */,
+				FE5D0039C797429CB13DE3BE1EC3C1A7 /* PartialFormatter.swift in Sources */,
+				02A795BDA823E1DFBE1FC008A4A521E8 /* PhoneNumber.swift in Sources */,
+				7B6B6CA36AC076DF04D37C0598D9C605 /* PhoneNumberKit-iOS10.1-dummy.m in Sources */,
+				70FE9F185971BE055170901E830A37BB /* PhoneNumberKit.swift in Sources */,
+				54C60734A1DB3DA3EC21C1116C84BF6E /* PhoneNumberParser.swift in Sources */,
+				D1A895F278F7A910F0E18D6EC97DDE8C /* RegularExpressions.swift in Sources */,
+				4EFED62316A0AC7E2D8F1507AC1977C2 /* TextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1413,23 +1413,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75A4BD3C1B5194EDFF9FB288BE0A89F9 /* Sources */ = {
+		5202327B349FC1F892AE6BC417B6EA2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6415F3E4A5835C0AFFEA055146636C10 /* Constants.swift in Sources */,
-				AC1843530F33EC98E00F1AA4D1819624 /* Formatter.swift in Sources */,
-				B77133D18F556390A4077F31A6913634 /* Metadata.swift in Sources */,
-				4684E15FCF261992B283EAF45910E9A1 /* MetadataTypes.swift in Sources */,
-				CE11D39F991B66835C147A64DD12F59E /* ParseManager.swift in Sources */,
-				BBCBE2C2C4B6D871D18F080FD7AF3905 /* ParseOperation.swift in Sources */,
-				0ED4B34D4D3E683EF951A12C93D3B700 /* PartialFormatter.swift in Sources */,
-				6EFA2FB1E4D3C09616C68416A3D4933C /* PhoneNumber.swift in Sources */,
-				614F4F306726168C5351BA76A2010071 /* PhoneNumberKit-iOS8.3-dummy.m in Sources */,
-				0866DE686282D9D96A04EC69300FB427 /* PhoneNumberKit.swift in Sources */,
-				20A18E8D9DEA257C79CB50989565B44F /* PhoneNumberParser.swift in Sources */,
-				3FF88BEE81AF34C76776EED21606FDF9 /* RegularExpressions.swift in Sources */,
-				C56A77A9D4C82A1B1D94FBC274DA4611 /* TextField.swift in Sources */,
+				73000DCB97B910B66552293895C90E4E /* Pods-JSSAlertView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A01F6815E8CBD4226B8B969AFE227AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C801AE99D1456AAB83C7C9D6CF314600 /* JSSAlertView-iOS10.1-dummy.m in Sources */,
+				1006A39A3F40F0A852B5EE24BD0CE5DD /* JSSAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6758924BDFC2342CAEEF2D38C4D9CD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A177426CC37D90DD90AEEC850DE2E8E0 /* Constants.swift in Sources */,
+				7CAEA95088CF856E5543831499CE445B /* Formatter.swift in Sources */,
+				4646ED71343D88A7D4838B36F2ABAC04 /* Metadata.swift in Sources */,
+				762006DD15F77D39754D1F7E26FC4FC4 /* MetadataTypes.swift in Sources */,
+				DA5D4E3A07FE813BF789F7B488A902AC /* ParseManager.swift in Sources */,
+				8B995F51336ACBD0B2AEC3075980BB87 /* ParseOperation.swift in Sources */,
+				CD6EB8AAAE3266F0B5120D259A3A3490 /* PartialFormatter.swift in Sources */,
+				D5F389B66382C4BB52BA0F9110B0A5B7 /* PhoneNumber.swift in Sources */,
+				31A4CA555D6608DD329FB79DE094EA51 /* PhoneNumberKit-iOS8.0-dummy.m in Sources */,
+				6AA63E52DB0588833B1219A3F8F767BA /* PhoneNumberKit.swift in Sources */,
+				620EF89D634452EFE11732FAEE6F8656 /* PhoneNumberParser.swift in Sources */,
+				5405340BB69504AD1F11F6FFDB6C86F9 /* RegularExpressions.swift in Sources */,
+				93E51A99807078D4E476B26F322714E2 /* TextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1446,23 +1463,6 @@
 				11C22C7B844DF31A5EBDC9AC132C5E94 /* UIImage+Compare.m in Sources */,
 				C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */,
 				D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A61C447E8E04FC537BAD169345920621 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88608E7F01E93C2F1A13F6A7239543FD /* Pods-JSSAlertView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB750F84D6865C56DA8063D8ECED3799 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EED993108513D6F13B724D2E69853D30 /* JSSAlertView-iOS8.3-dummy.m in Sources */,
-				BC2CBD968278FFAF6843DA72F33122D4 /* JSSAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1497,15 +1497,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B26DAF8D10DE3F2115404877F0CC404E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D3430A8E0BEAD60EB637B316D5D4D58 /* JSSAlertView-iOS8.0-dummy.m in Sources */,
-				1D8A8661DA00252C3482B2447BCE7856 /* JSSAlertView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CF1F5A529EDB9E4B0CDE183D34511F72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1517,32 +1508,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3EBED97D21BAF151897020644867F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF70CAA21CBC13C2E0408B814407D7B3 /* JSSAlertView-iOS8.0-dummy.m in Sources */,
+				CE1ECE03387122429FD582C8CB236BB1 /* JSSAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		0288D8AF0EEADED9B2B42FA3A6F6BAA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PhoneNumberKit-iOS8.0";
-			target = D603CBB93290A30D1D10A7F36FA1353C /* PhoneNumberKit-iOS8.0 */;
+			target = A137647BD1DA8015AE962B6D9D446BA6 /* PhoneNumberKit-iOS8.0 */;
 			targetProxy = 58E20F47F993B8D7858A0EA710807CD9 /* PBXContainerItemProxy */;
 		};
 		1BA7889522E2126D956CD02860809769 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PhoneNumberKit-iOS8.0";
-			target = D603CBB93290A30D1D10A7F36FA1353C /* PhoneNumberKit-iOS8.0 */;
+			target = A137647BD1DA8015AE962B6D9D446BA6 /* PhoneNumberKit-iOS8.0 */;
 			targetProxy = DEA124CFCE1F1B51852D82E6C209E6C2 /* PBXContainerItemProxy */;
 		};
-		28504CDA6F86866797EB8F865D83F1B1 /* PBXTargetDependency */ = {
+		388FDF229CEE38D7C93AF7CA49814A38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Quick;
-			target = A5C430B1E2D8298FD6C5403590C0B80F /* Quick */;
-			targetProxy = B82B1BC31D6E3E14D78E751CB1F2A6BF /* PBXContainerItemProxy */;
+			name = FBSnapshotTestCase;
+			target = 5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */;
+			targetProxy = 57ABD44988A23D20F19C313272A3E178 /* PBXContainerItemProxy */;
 		};
-		4EE7142B3F50D346845524553B30F013 /* PBXTargetDependency */ = {
+		45B54E70524CAEAB2485391B1E004B29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "JSSAlertView-iOS8.3";
-			target = F4BD2D26EAA4BB23685FD46899E4D5EA /* JSSAlertView-iOS8.3 */;
-			targetProxy = 5BB0633BA6FB8C7A881BA4059652C726 /* PBXContainerItemProxy */;
+			name = "Nimble-Snapshots";
+			target = 9A3AE440FB23CCC076AA408C3C4836C4 /* Nimble-Snapshots */;
+			targetProxy = 0E1663E4991A82701FC797DE667BB9B0 /* PBXContainerItemProxy */;
 		};
 		51181AC113284270633563DB2A331F61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1550,11 +1550,23 @@
 			target = FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */;
 			targetProxy = 7839961D148D585620FA3CB1EEE772EF /* PBXContainerItemProxy */;
 		};
-		81DEDD1B23977D66058EFB48832A8CFB /* PBXTargetDependency */ = {
+		69B8C33C49D0E54BAC3A7207190EC69E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Nimble-Snapshots";
-			target = 9A3AE440FB23CCC076AA408C3C4836C4 /* Nimble-Snapshots */;
-			targetProxy = 990CAB1D90305613845B18B80814EE31 /* PBXContainerItemProxy */;
+			name = Nimble;
+			target = FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */;
+			targetProxy = DF0BD0EE8DEDA78EB83219B7AAE76200 /* PBXContainerItemProxy */;
+		};
+		6FC54F5FB8774C0B5B76B59A3E5CAFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JSSAlertView-iOS10.1";
+			target = 4FAE546E3D5160ADA8510ECFC2736D01 /* JSSAlertView-iOS10.1 */;
+			targetProxy = 063492622C49E944ABF932CE15FE0483 /* PBXContainerItemProxy */;
+		};
+		7A48AC28FCB75625CB35D721DD6AA9B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PhoneNumberKit-iOS8.0";
+			target = A137647BD1DA8015AE962B6D9D446BA6 /* PhoneNumberKit-iOS8.0 */;
+			targetProxy = 9483D305E9A6B3A96BE8D29158F92891 /* PBXContainerItemProxy */;
 		};
 		978999FF2725DD4FB6592B2453317823 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1562,17 +1574,23 @@
 			target = 5400BA7EF68AE488925D8E58C66B5B62 /* JSSAlertView-iOS8.0 */;
 			targetProxy = 08CF2E463EF7FD60E2D9E814F9F52E3A /* PBXContainerItemProxy */;
 		};
-		AD4327433C43F7B35C261EBBB62F558C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "PhoneNumberKit-iOS8.3";
-			target = 24EABEE9086699879664457199A10F52 /* PhoneNumberKit-iOS8.3 */;
-			targetProxy = 8D780A81AF576055F97ABD09596E4AC0 /* PBXContainerItemProxy */;
-		};
 		B5EEF869A8D853590BFC239D1E1CB7D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Quick;
 			target = A5C430B1E2D8298FD6C5403590C0B80F /* Quick */;
 			targetProxy = 7B73A1A618322F16D02EC89ED7B2076D /* PBXContainerItemProxy */;
+		};
+		C8034379F440C587829D6198D5D384F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Quick;
+			target = A5C430B1E2D8298FD6C5403590C0B80F /* Quick */;
+			targetProxy = A5D7E62F61D67ECE32AA62F806D126B3 /* PBXContainerItemProxy */;
+		};
+		CF7F140305AA66E30ABE08BEA5C5BDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PhoneNumberKit-iOS10.1";
+			target = AC73492129895314747FC647FE0DC4B9 /* PhoneNumberKit-iOS10.1 */;
+			targetProxy = FB2E99C78A0A0B8CA739BC7191CC0123 /* PBXContainerItemProxy */;
 		};
 		DDF82A7F4F0212527E85A6197F5FD72A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1580,93 +1598,16 @@
 			target = 5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */;
 			targetProxy = 67B84CC48124DDE2ADD9AFDFBAEE034C /* PBXContainerItemProxy */;
 		};
-		EC01B128DBC7D52B3C8D5E1877232D40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Nimble;
-			target = FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */;
-			targetProxy = A9B55996BD51F0D2AB2E847A832D2D64 /* PBXContainerItemProxy */;
-		};
-		F7218BDB32A9D9F17ABA400070E78459 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */;
-			targetProxy = F7D49A4C3C16BD50772B29187A6CEB2E /* PBXContainerItemProxy */;
-		};
-		FD9B04662E4287DE04E08AD24C59F3A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "PhoneNumberKit-iOS8.0";
-			target = D603CBB93290A30D1D10A7F36FA1353C /* PhoneNumberKit-iOS8.0 */;
-			targetProxy = 229755423B66DA6AACF15D9B678C3073 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05742DCB7B88E88D65404F7A34902665 /* Release */ = {
+		0139A64AED3EAA278EA8D46EA7461591 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CF4D0D67B16D11901A5973CAFF1C552 /* JSSAlertView-iOS8.0.xcconfig */;
+			baseConfigurationReference = B6C29F4F8BF316A03387F5669F7E7215 /* Pods-JSSAlertView_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView-iOS8.0/JSSAlertView-iOS8.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSSAlertView-iOS8.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSSAlertView-iOS8.0/JSSAlertView-iOS8.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JSSAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1EAB35ACB452D210D5CF60F7847CD85B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A80FBB3CB575C9E3CEDDB48F895676B /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		20F34983BAB0BE1458ACA6FCC918B872 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DFDF7A2E2F251EB929093D3610A144A /* Pods-JSSAlertView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1679,7 +1620,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JSSAlertView_Example/Pods-JSSAlertView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1687,46 +1628,16 @@
 				PRODUCT_NAME = Pods_JSSAlertView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		28F80B4AEA4176C18356C54BFC24D33E /* Debug */ = {
+		1786D15626085EF13903C10F4FDD3A48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 687A678AD5F791FD68D739186E5DDF08 /* PhoneNumberKit-iOS8.3.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit-iOS8.3/PhoneNumberKit-iOS8.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit-iOS8.3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit-iOS8.3/PhoneNumberKit-iOS8.3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PhoneNumberKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		473FE2A031E83CA989ADC3F52F9EC2F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BDACB2AD760C991C646546151CC2E64 /* Nimble-Snapshots.xcconfig */;
+			baseConfigurationReference = 424BF3D41A9E91ED4496871F9984EDFA /* PhoneNumberKit-iOS8.0.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1737,21 +1648,84 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble-Snapshots/Nimble-Snapshots-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble-Snapshots/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit-iOS8.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nimble-Snapshots/Nimble-Snapshots.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Nimble_Snapshots;
+				PRODUCT_NAME = PhoneNumberKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		28CF8F20382AAF532CA9C8864E9BD431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA38CB1B0C349631614D2D14B658595 /* PhoneNumberKit-iOS10.1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit-iOS10.1/PhoneNumberKit-iOS10.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit-iOS10.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit-iOS10.1/PhoneNumberKit-iOS10.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		292976086BE6990C3BBD48B720DA4EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424BF3D41A9E91ED4496871F9984EDFA /* PhoneNumberKit-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1795,7 +1769,224 @@
 			};
 			name = Debug;
 		};
-		5AAB066D3D4B35BAA4FCF6385B78B160 /* Debug */ = {
+		4DBFDD43F2765943295C4FB1BB98EB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFDF7A2E2F251EB929093D3610A144A /* Pods-JSSAlertView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSAlertView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSAlertView_Example/Pods-JSSAlertView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSAlertView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A2D6C4745BCF2A8A2CF99463DDA8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD3AD9DAEF70B3B23C14C0B213DD6E6 /* JSSAlertView-iOS10.1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView-iOS10.1/JSSAlertView-iOS10.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSAlertView-iOS10.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSAlertView-iOS10.1/JSSAlertView-iOS10.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSSAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AF06C384021E80E1566361C94D0E866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD3AD9DAEF70B3B23C14C0B213DD6E6 /* JSSAlertView-iOS10.1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView-iOS10.1/JSSAlertView-iOS10.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSAlertView-iOS10.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSAlertView-iOS10.1/JSSAlertView-iOS10.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSSAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		607C51DD36AE414C37C625448756BB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDACB2AD760C991C646546151CC2E64 /* Nimble-Snapshots.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble-Snapshots/Nimble-Snapshots-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble-Snapshots/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nimble-Snapshots/Nimble-Snapshots.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Nimble_Snapshots;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64C2D3F343E3BA57740D261741CC3924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74129A079D1AD3C14578ADB33F28469 /* Nimble.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B464615CBEC9C64064C0B12093CE8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0A789FB22ADABAD6646B8409B6A89A /* Quick.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B0543689227BB2D77DA70A31F44B61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87828C615D22B8661B04F1AD331BD0B /* JSSAlertView-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView-iOS8.0/JSSAlertView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSAlertView-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSAlertView-iOS8.0/JSSAlertView-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSSAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98F183F0D0320C5F41C2FBE21774F31A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF0A789FB22ADABAD6646B8409B6A89A /* Quick.xcconfig */;
 			buildSettings = {
@@ -1819,137 +2010,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		64A1B9FE81E1CAF0CF6D661AAB7ED91A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BDACB2AD760C991C646546151CC2E64 /* Nimble-Snapshots.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble-Snapshots/Nimble-Snapshots-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble-Snapshots/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nimble-Snapshots/Nimble-Snapshots.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Nimble_Snapshots;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B4285F866864C766F2CBF19CAABB035 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 250C2D5F0908543EAA881974BBDA3203 /* Pods-JSSAlertView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSSAlertView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JSSAlertView_Tests/Pods-JSSAlertView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JSSAlertView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9BD559939F003CE683D77BA4FD676B31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1331A01C95A312D83CCEA2DF902DCFA4 /* JSSAlertView-iOS8.3.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView-iOS8.3/JSSAlertView-iOS8.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSSAlertView-iOS8.3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSSAlertView-iOS8.3/JSSAlertView-iOS8.3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JSSAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AAE96B45557A003DBDAA2BE1A5E0D422 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6C29F4F8BF316A03387F5669F7E7215 /* Pods-JSSAlertView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSSAlertView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JSSAlertView_Example/Pods-JSSAlertView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JSSAlertView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1989,101 +2055,13 @@
 			};
 			name = Release;
 		};
-		AFF2FD2D9EDAD1D223C8825FDD5F99B8 /* Release */ = {
+		B1F68628AD0BCAB60A29822690EBD3C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 687A678AD5F791FD68D739186E5DDF08 /* PhoneNumberKit-iOS8.3.xcconfig */;
+			baseConfigurationReference = 250C2D5F0908543EAA881974BBDA3203 /* Pods-JSSAlertView_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit-iOS8.3/PhoneNumberKit-iOS8.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit-iOS8.3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit-iOS8.3/PhoneNumberKit-iOS8.3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PhoneNumberKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B3768AA720F08B334C4018CD8E48EB1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CF4D0D67B16D11901A5973CAFF1C552 /* JSSAlertView-iOS8.0.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView-iOS8.0/JSSAlertView-iOS8.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSSAlertView-iOS8.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSSAlertView-iOS8.0/JSSAlertView-iOS8.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JSSAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B74A7C792203866A9DD55704A7993AE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC6B5CA848FBCE6A219603741C925DE1 /* PhoneNumberKit-iOS8.0.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit-iOS8.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PhoneNumberKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BA7325597228A821090F3E2EED048DE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E9982617E1204D2535ADD69103FE0C3 /* Pods-JSSAlertView_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -2092,11 +2070,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-JSSAlertView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JSSAlertView_Tests/Pods-JSSAlertView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2104,103 +2082,16 @@
 				PRODUCT_NAME = Pods_JSSAlertView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CBC8377EBA83197B271A26A15AB300D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF0A789FB22ADABAD6646B8409B6A89A /* Quick.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Quick;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D136996600E31F365F763213EFA35139 /* Release */ = {
+		C027E4F7E8C60F84E33A4B0E13B5C994 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74129A079D1AD3C14578ADB33F28469 /* Nimble.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Nimble;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F03E9711F41482DFE34AD0AD5EB76E61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1331A01C95A312D83CCEA2DF902DCFA4 /* JSSAlertView-iOS8.3.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView-iOS8.3/JSSAlertView-iOS8.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSSAlertView-iOS8.3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSSAlertView-iOS8.3/JSSAlertView-iOS8.3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JSSAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F14745E2F2D90E33DB7401B9ED7C5F16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74129A079D1AD3C14578ADB33F28469 /* Nimble.xcconfig */;
+			baseConfigurationReference = 7BDACB2AD760C991C646546151CC2E64 /* Nimble-Snapshots.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -2211,24 +2102,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble-Snapshots/Nimble-Snapshots-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble-Snapshots/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Nimble-Snapshots/Nimble-Snapshots.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Nimble;
+				PRODUCT_NAME = Nimble_Snapshots;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F1966C59AF0C3A63F4C5A9E7987B3CB0 /* Release */ = {
+		D194420AF6239CF1DA1BCFC968DA8649 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A80FBB3CB575C9E3CEDDB48F895676B /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
@@ -2251,15 +2143,16 @@
 				PRODUCT_NAME = FBSnapshotTestCase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F5391538E84EF9117ACAD1FB45C303AD /* Debug */ = {
+		E557935A32C2B71EB80E610FF2667E76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC6B5CA848FBCE6A219603741C925DE1 /* PhoneNumberKit-iOS8.0.xcconfig */;
+			baseConfigurationReference = 8E9982617E1204D2535ADD69103FE0C3 /* Pods-JSSAlertView_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -2270,17 +2163,144 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit-iOS8.0/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSAlertView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit-iOS8.0/PhoneNumberKit-iOS8.0.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSAlertView_Tests/Pods-JSSAlertView_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PhoneNumberKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSAlertView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5FD962E0E3B413E76F4F28BFC7E0CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA38CB1B0C349631614D2D14B658595 /* PhoneNumberKit-iOS10.1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit-iOS10.1/PhoneNumberKit-iOS10.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit-iOS10.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit-iOS10.1/PhoneNumberKit-iOS10.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE07226B3BBA2BF884606F0EB789A58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74129A079D1AD3C14578ADB33F28469 /* Nimble.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8E3160F75F01CA42A619A6B14EFD256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87828C615D22B8661B04F1AD331BD0B /* JSSAlertView-iOS8.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSSAlertView-iOS8.0/JSSAlertView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSAlertView-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSAlertView-iOS8.0/JSSAlertView-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSSAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8F12E14DB2B18590C5C112CE04F26E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A80FBB3CB575C9E3CEDDB48F895676B /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2293,17 +2313,8 @@
 		16338EE1C1BD578312E653B5ED79DBC9 /* Build configuration list for PBXNativeTarget "Nimble-Snapshots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64A1B9FE81E1CAF0CF6D661AAB7ED91A /* Debug */,
-				473FE2A031E83CA989ADC3F52F9EC2F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18ED104B2B6142DA0BC4ED995F55DB28 /* Build configuration list for PBXNativeTarget "PhoneNumberKit-iOS8.3" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28F80B4AEA4176C18356C54BFC24D33E /* Debug */,
-				AFF2FD2D9EDAD1D223C8825FDD5F99B8 /* Release */,
+				C027E4F7E8C60F84E33A4B0E13B5C994 /* Debug */,
+				607C51DD36AE414C37C625448756BB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2317,11 +2328,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43F7846C4D2CFFB81A2554D1CC60A0F2 /* Build configuration list for PBXNativeTarget "JSSAlertView-iOS8.3" */ = {
+		40E89D02F76473C8E89E8F187D369A8E /* Build configuration list for PBXNativeTarget "PhoneNumberKit-iOS8.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BD559939F003CE683D77BA4FD676B31 /* Debug */,
-				F03E9711F41482DFE34AD0AD5EB76E61 /* Release */,
+				292976086BE6990C3BBD48B720DA4EF8 /* Debug */,
+				1786D15626085EF13903C10F4FDD3A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5542E40E326D43CA5F96A0882BB930CF /* Build configuration list for PBXNativeTarget "JSSAlertView-iOS10.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF06C384021E80E1566361C94D0E866 /* Debug */,
+				56A2D6C4745BCF2A8A2CF99463DDA8C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2329,8 +2349,8 @@
 		5FE57A1C8E467D246D7D1BCB203A09DC /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F14745E2F2D90E33DB7401B9ED7C5F16 /* Debug */,
-				D136996600E31F365F763213EFA35139 /* Release */,
+				64C2D3F343E3BA57740D261741CC3924 /* Debug */,
+				EE07226B3BBA2BF884606F0EB789A58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2338,8 +2358,8 @@
 		60E2C0B02B4045D939F822EDFF3DADC2 /* Build configuration list for PBXNativeTarget "Pods-JSSAlertView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20F34983BAB0BE1458ACA6FCC918B872 /* Debug */,
-				AAE96B45557A003DBDAA2BE1A5E0D422 /* Release */,
+				4DBFDD43F2765943295C4FB1BB98EB34 /* Debug */,
+				0139A64AED3EAA278EA8D46EA7461591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2347,17 +2367,17 @@
 		6EB5EB15B09F29A73903D14DD8F100FF /* Build configuration list for PBXNativeTarget "JSSAlertView-iOS8.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3768AA720F08B334C4018CD8E48EB1F /* Debug */,
-				05742DCB7B88E88D65404F7A34902665 /* Release */,
+				F8E3160F75F01CA42A619A6B14EFD256 /* Debug */,
+				7B0543689227BB2D77DA70A31F44B61B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E09D88548D572C9F3A9970DE86D0A32 /* Build configuration list for PBXNativeTarget "Pods-JSSAlertView_Tests" */ = {
+		7A59E043B2552871B654E9F015C481ED /* Build configuration list for PBXNativeTarget "Pods-JSSAlertView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA7325597228A821090F3E2EED048DE5 /* Debug */,
-				8B4285F866864C766F2CBF19CAABB035 /* Release */,
+				E557935A32C2B71EB80E610FF2667E76 /* Debug */,
+				B1F68628AD0BCAB60A29822690EBD3C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2365,8 +2385,8 @@
 		8D492E06A9E9F494492A2A3B4D19493E /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EAB35ACB452D210D5CF60F7847CD85B /* Debug */,
-				F1966C59AF0C3A63F4C5A9E7987B3CB0 /* Release */,
+				F8F12E14DB2B18590C5C112CE04F26E3 /* Debug */,
+				D194420AF6239CF1DA1BCFC968DA8649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2374,17 +2394,17 @@
 		CDD472835DE04EBDB4665D3207961542 /* Build configuration list for PBXNativeTarget "Quick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AAB066D3D4B35BAA4FCF6385B78B160 /* Debug */,
-				CBC8377EBA83197B271A26A15AB300D1 /* Release */,
+				98F183F0D0320C5F41C2FBE21774F31A /* Debug */,
+				6B464615CBEC9C64064C0B12093CE8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F30CE3F0234C926B024849E8A5188671 /* Build configuration list for PBXNativeTarget "PhoneNumberKit-iOS8.0" */ = {
+		EBAF61D9CC615A532760DDEA516ECD45 /* Build configuration list for PBXNativeTarget "PhoneNumberKit-iOS10.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5391538E84EF9117ACAD1FB45C303AD /* Debug */,
-				B74A7C792203866A9DD55704A7993AE1 /* Release */,
+				28CF8F20382AAF532CA9C8864E9BD431 /* Debug */,
+				E5FD962E0E3B413E76F4F28BFC7E0CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
