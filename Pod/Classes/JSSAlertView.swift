@@ -188,8 +188,6 @@ public class JSSAlertView: UIViewController {
 	
 	override public init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
 		super.init(nibName:nibNameOrNil, bundle:nibBundleOrNil)
-        
-        self.registerForKeyboardNotifications()
 	}
 	
 	public required init?(coder aDecoder: NSCoder) {
@@ -372,7 +370,9 @@ public class JSSAlertView: UIViewController {
 	
     public func show(viewController: UIViewController, title: String, text: String?=nil, noButtons: Bool?=false, buttonText: String?=nil, cancelButtonText: String?=nil, color: UIColor?=nil, iconImage: UIImage?=nil, openType: OpenType? = .SlideDown, delay: Double?=nil) -> JSSAlertViewResponder {
 		self.rootViewController = viewController
-				
+        
+        self.registerForKeyboardNotifications()
+        
         self.view.layer.cornerRadius = 5
         
 		self.view.backgroundColor = UIColorFromHex(0x000000, alpha: 0.7)
