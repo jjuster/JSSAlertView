@@ -25,7 +25,7 @@ public class JSSAlertView: UIViewController {
 	var textView:UITextView!
     var input: UITextField?
     var suppView: UIView?
-	weak var rootViewController:UIViewController!
+	weak var rootViewController:UIViewController?
 	var iconImage:UIImage!
 	var iconImageView:UIImageView!
 	var closeAction:(()->Void)!
@@ -612,11 +612,11 @@ public class JSSAlertView: UIViewController {
 	}
 	
 	func rootViewControllerSize() -> CGSize {
-		let size = self.rootViewController.view.frame.size
-		if (NSFoundationVersionNumber <= NSFoundationVersionNumber_iOS_7_1) && UIInterfaceOrientationIsLandscape(UIApplication.sharedApplication().statusBarOrientation) {
-			return CGSizeMake(size.height, size.width)
-		}
-		return size
+        if let size = self.rootViewController?.view.frame.size {
+            return size
+        }
+        let b = UIScreen.mainScreen().bounds
+		return CGSizeMake(b.width, b.height)
 	}
 	
 	func screenSize() -> CGSize {
